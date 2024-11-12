@@ -1,0 +1,2492 @@
+\ Model Fairness_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Maximize
+ 
+Subject To
+ Min_ratio_constraint_for_zip_11219:
+   3.6207e-05 new_slots_at_facility_6765_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6765_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6765_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6766_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6766_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6766_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6767_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6767_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6767_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6768_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6768_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6768_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6769_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6769_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6769_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6770_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6770_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6770_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6771_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6771_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6771_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6772_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6772_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6772_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6773_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6773_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6773_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6774_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6774_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6774_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6775_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6775_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6775_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6776_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6776_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6776_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6777_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6777_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6777_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6778_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6778_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6778_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6779_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6779_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6779_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6780_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6780_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6780_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6781_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6781_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6781_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6782_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6782_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6782_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6783_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6783_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6783_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6784_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6784_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6784_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6785_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6785_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6785_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6786_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6786_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6786_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6787_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6787_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6787_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6788_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6788_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6788_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6789_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6789_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6789_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6790_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6790_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6790_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6791_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6791_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6791_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6792_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6792_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6792_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6793_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6793_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6793_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6794_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6794_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6794_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6795_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6795_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6795_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6796_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6796_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6796_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6797_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6797_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6797_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6798_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6798_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6798_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6799_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6799_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6799_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6800_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6800_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6800_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6801_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6801_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6801_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6802_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6802_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6802_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6803_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6803_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6803_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6804_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6804_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6804_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6805_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6805_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6805_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6806_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6806_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6806_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6807_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6807_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6807_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6808_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6808_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6808_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6809_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6809_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6809_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6810_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6810_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6810_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6811_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6811_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6811_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6812_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6812_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6812_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6813_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6813_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6813_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6814_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6814_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6814_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6815_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6815_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6815_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6816_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6816_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6816_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6817_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6817_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6817_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6818_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6818_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6818_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6819_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6819_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6819_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6820_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6820_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6820_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6821_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6821_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6821_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6822_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6822_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6822_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6823_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6823_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6823_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6824_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6824_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6824_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6825_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6825_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6825_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6826_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6826_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6826_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6827_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6827_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6827_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6828_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6828_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6828_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6829_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6829_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6829_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6830_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6830_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6830_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6831_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6831_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6831_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6832_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6832_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6832_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6833_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6833_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6833_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6834_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6834_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6834_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6835_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6835_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6835_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6836_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6836_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6836_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6837_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6837_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6837_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6838_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6838_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6838_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6839_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6839_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6839_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6840_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6840_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6840_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6841_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6841_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6841_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6842_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6842_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6842_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6843_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6843_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6843_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6844_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6844_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6844_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6845_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6845_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6845_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6846_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6846_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6846_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6847_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6847_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6847_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6848_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6848_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6848_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6849_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6849_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6849_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6850_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6850_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6850_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6851_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6851_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6851_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6852_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6852_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6852_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6853_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6853_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6853_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6854_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6854_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6854_between_15%_and_20%
+   + 3.6207e-05 new_slots_at_facility_6855_between_0%_and_10%
+   + 3.6207e-05 new_slots_at_facility_6855_between_10%_and_15%
+   + 3.6207e-05 new_slots_at_facility_6855_between_15%_and_20%
+   + 0.00362069589775155 build_a_small_facility_in_22500
+   + 0.0072413917955031 build_a_medium_facility_in_22500
+   + 0.0144827835910062 build_a_large_facility_in_22500
+   + 0.00362069589775155 build_a_small_facility_in_22501
+   + 0.0072413917955031 build_a_medium_facility_in_22501
+   + 0.0144827835910062 build_a_large_facility_in_22501
+   + 0.00362069589775155 build_a_small_facility_in_22502
+   + 0.0072413917955031 build_a_medium_facility_in_22502
+   + 0.0144827835910062 build_a_large_facility_in_22502
+   + 0.00362069589775155 build_a_small_facility_in_22503
+   + 0.0072413917955031 build_a_medium_facility_in_22503
+   + 0.0144827835910062 build_a_large_facility_in_22503
+   + 0.00362069589775155 build_a_small_facility_in_22504
+   + 0.0072413917955031 build_a_medium_facility_in_22504
+   + 0.0144827835910062 build_a_large_facility_in_22504
+   + 0.00362069589775155 build_a_small_facility_in_22505
+   + 0.0072413917955031 build_a_medium_facility_in_22505
+   + 0.0144827835910062 build_a_large_facility_in_22505
+   + 0.00362069589775155 build_a_small_facility_in_22506
+   + 0.0072413917955031 build_a_medium_facility_in_22506
+   + 0.0144827835910062 build_a_large_facility_in_22506
+   + 0.00362069589775155 build_a_small_facility_in_22507
+   + 0.0072413917955031 build_a_medium_facility_in_22507
+   + 0.0144827835910062 build_a_large_facility_in_22507
+   + 0.00362069589775155 build_a_small_facility_in_22508
+   + 0.0072413917955031 build_a_medium_facility_in_22508
+   + 0.0144827835910062 build_a_large_facility_in_22508
+   + 0.00362069589775155 build_a_small_facility_in_22509
+   + 0.0072413917955031 build_a_medium_facility_in_22509
+   + 0.0144827835910062 build_a_large_facility_in_22509
+   + 0.00362069589775155 build_a_small_facility_in_22510
+   + 0.0072413917955031 build_a_medium_facility_in_22510
+   + 0.0144827835910062 build_a_large_facility_in_22510
+   + 0.00362069589775155 build_a_small_facility_in_22511
+   + 0.0072413917955031 build_a_medium_facility_in_22511
+   + 0.0144827835910062 build_a_large_facility_in_22511
+   + 0.00362069589775155 build_a_small_facility_in_22512
+   + 0.0072413917955031 build_a_medium_facility_in_22512
+   + 0.0144827835910062 build_a_large_facility_in_22512
+   + 0.00362069589775155 build_a_small_facility_in_22513
+   + 0.0072413917955031 build_a_medium_facility_in_22513
+   + 0.0144827835910062 build_a_large_facility_in_22513
+   + 0.00362069589775155 build_a_small_facility_in_22514
+   + 0.0072413917955031 build_a_medium_facility_in_22514
+   + 0.0144827835910062 build_a_large_facility_in_22514
+   + 0.00362069589775155 build_a_small_facility_in_22515
+   + 0.0072413917955031 build_a_medium_facility_in_22515
+   + 0.0144827835910062 build_a_large_facility_in_22515
+   + 0.00362069589775155 build_a_small_facility_in_22516
+   + 0.0072413917955031 build_a_medium_facility_in_22516
+   + 0.0144827835910062 build_a_large_facility_in_22516
+   + 0.00362069589775155 build_a_small_facility_in_22517
+   + 0.0072413917955031 build_a_medium_facility_in_22517
+   + 0.0144827835910062 build_a_large_facility_in_22517
+   + 0.00362069589775155 build_a_small_facility_in_22518
+   + 0.0072413917955031 build_a_medium_facility_in_22518
+   + 0.0144827835910062 build_a_large_facility_in_22518
+   + 0.00362069589775155 build_a_small_facility_in_22519
+   + 0.0072413917955031 build_a_medium_facility_in_22519
+   + 0.0144827835910062 build_a_large_facility_in_22519
+   + 0.00362069589775155 build_a_small_facility_in_22520
+   + 0.0072413917955031 build_a_medium_facility_in_22520
+   + 0.0144827835910062 build_a_large_facility_in_22520
+   + 0.00362069589775155 build_a_small_facility_in_22521
+   + 0.0072413917955031 build_a_medium_facility_in_22521
+   + 0.0144827835910062 build_a_large_facility_in_22521
+   + 0.00362069589775155 build_a_small_facility_in_22522
+   + 0.0072413917955031 build_a_medium_facility_in_22522
+   + 0.0144827835910062 build_a_large_facility_in_22522
+   + 0.00362069589775155 build_a_small_facility_in_22523
+   + 0.0072413917955031 build_a_medium_facility_in_22523
+   + 0.0144827835910062 build_a_large_facility_in_22523
+   + 0.00362069589775155 build_a_small_facility_in_22524
+   + 0.0072413917955031 build_a_medium_facility_in_22524
+   + 0.0144827835910062 build_a_large_facility_in_22524
+   + 0.00362069589775155 build_a_small_facility_in_22525
+   + 0.0072413917955031 build_a_medium_facility_in_22525
+   + 0.0144827835910062 build_a_large_facility_in_22525
+   + 0.00362069589775155 build_a_small_facility_in_22526
+   + 0.0072413917955031 build_a_medium_facility_in_22526
+   + 0.0144827835910062 build_a_large_facility_in_22526
+   + 0.00362069589775155 build_a_small_facility_in_22527
+   + 0.0072413917955031 build_a_medium_facility_in_22527
+   + 0.0144827835910062 build_a_large_facility_in_22527
+   + 0.00362069589775155 build_a_small_facility_in_22528
+   + 0.0072413917955031 build_a_medium_facility_in_22528
+   + 0.0144827835910062 build_a_large_facility_in_22528
+   + 0.00362069589775155 build_a_small_facility_in_22529
+   + 0.0072413917955031 build_a_medium_facility_in_22529
+   + 0.0144827835910062 build_a_large_facility_in_22529
+   + 0.00362069589775155 build_a_small_facility_in_22530
+   + 0.0072413917955031 build_a_medium_facility_in_22530
+   + 0.0144827835910062 build_a_large_facility_in_22530
+   + 0.00362069589775155 build_a_small_facility_in_22531
+   + 0.0072413917955031 build_a_medium_facility_in_22531
+   + 0.0144827835910062 build_a_large_facility_in_22531
+   + 0.00362069589775155 build_a_small_facility_in_22532
+   + 0.0072413917955031 build_a_medium_facility_in_22532
+   + 0.0144827835910062 build_a_large_facility_in_22532
+   + 0.00362069589775155 build_a_small_facility_in_22533
+   + 0.0072413917955031 build_a_medium_facility_in_22533
+   + 0.0144827835910062 build_a_large_facility_in_22533
+   + 0.00362069589775155 build_a_small_facility_in_22534
+   + 0.0072413917955031 build_a_medium_facility_in_22534
+   + 0.0144827835910062 build_a_large_facility_in_22534
+   + 0.00362069589775155 build_a_small_facility_in_22535
+   + 0.0072413917955031 build_a_medium_facility_in_22535
+   + 0.0144827835910062 build_a_large_facility_in_22535
+   + 0.00362069589775155 build_a_small_facility_in_22536
+   + 0.0072413917955031 build_a_medium_facility_in_22536
+   + 0.0144827835910062 build_a_large_facility_in_22536
+   + 0.00362069589775155 build_a_small_facility_in_22537
+   + 0.0072413917955031 build_a_medium_facility_in_22537
+   + 0.0144827835910062 build_a_large_facility_in_22537
+   + 0.00362069589775155 build_a_small_facility_in_22538
+   + 0.0072413917955031 build_a_medium_facility_in_22538
+   + 0.0144827835910062 build_a_large_facility_in_22538
+   + 0.00362069589775155 build_a_small_facility_in_22539
+   + 0.0072413917955031 build_a_medium_facility_in_22539
+   + 0.0144827835910062 build_a_large_facility_in_22539
+   + 0.00362069589775155 build_a_small_facility_in_22540
+   + 0.0072413917955031 build_a_medium_facility_in_22540
+   + 0.0144827835910062 build_a_large_facility_in_22540
+   + 0.00362069589775155 build_a_small_facility_in_22541
+   + 0.0072413917955031 build_a_medium_facility_in_22541
+   + 0.0144827835910062 build_a_large_facility_in_22541
+   + 0.00362069589775155 build_a_small_facility_in_22542
+   + 0.0072413917955031 build_a_medium_facility_in_22542
+   + 0.0144827835910062 build_a_large_facility_in_22542
+   + 0.00362069589775155 build_a_small_facility_in_22543
+   + 0.0072413917955031 build_a_medium_facility_in_22543
+   + 0.0144827835910062 build_a_large_facility_in_22543
+   + 0.00362069589775155 build_a_small_facility_in_22544
+   + 0.0072413917955031 build_a_medium_facility_in_22544
+   + 0.0144827835910062 build_a_large_facility_in_22544
+   + 0.00362069589775155 build_a_small_facility_in_22545
+   + 0.0072413917955031 build_a_medium_facility_in_22545
+   + 0.0144827835910062 build_a_large_facility_in_22545
+   + 0.00362069589775155 build_a_small_facility_in_22546
+   + 0.0072413917955031 build_a_medium_facility_in_22546
+   + 0.0144827835910062 build_a_large_facility_in_22546
+   + 0.00362069589775155 build_a_small_facility_in_22547
+   + 0.0072413917955031 build_a_medium_facility_in_22547
+   + 0.0144827835910062 build_a_large_facility_in_22547
+   + 0.00362069589775155 build_a_small_facility_in_22548
+   + 0.0072413917955031 build_a_medium_facility_in_22548
+   + 0.0144827835910062 build_a_large_facility_in_22548
+   + 0.00362069589775155 build_a_small_facility_in_22549
+   + 0.0072413917955031 build_a_medium_facility_in_22549
+   + 0.0144827835910062 build_a_large_facility_in_22549
+   + 0.00362069589775155 build_a_small_facility_in_22550
+   + 0.0072413917955031 build_a_medium_facility_in_22550
+   + 0.0144827835910062 build_a_large_facility_in_22550
+   + 0.00362069589775155 build_a_small_facility_in_22551
+   + 0.0072413917955031 build_a_medium_facility_in_22551
+   + 0.0144827835910062 build_a_large_facility_in_22551
+   + 0.00362069589775155 build_a_small_facility_in_22552
+   + 0.0072413917955031 build_a_medium_facility_in_22552
+   + 0.0144827835910062 build_a_large_facility_in_22552
+   + 0.00362069589775155 build_a_small_facility_in_22553
+   + 0.0072413917955031 build_a_medium_facility_in_22553
+   + 0.0144827835910062 build_a_large_facility_in_22553
+   + 0.00362069589775155 build_a_small_facility_in_22554
+   + 0.0072413917955031 build_a_medium_facility_in_22554
+   + 0.0144827835910062 build_a_large_facility_in_22554
+   + 0.00362069589775155 build_a_small_facility_in_22555
+   + 0.0072413917955031 build_a_medium_facility_in_22555
+   + 0.0144827835910062 build_a_large_facility_in_22555
+   + 0.00362069589775155 build_a_small_facility_in_22556
+   + 0.0072413917955031 build_a_medium_facility_in_22556
+   + 0.0144827835910062 build_a_large_facility_in_22556
+   + 0.00362069589775155 build_a_small_facility_in_22557
+   + 0.0072413917955031 build_a_medium_facility_in_22557
+   + 0.0144827835910062 build_a_large_facility_in_22557
+   + 0.00362069589775155 build_a_small_facility_in_22558
+   + 0.0072413917955031 build_a_medium_facility_in_22558
+   + 0.0144827835910062 build_a_large_facility_in_22558
+   + 0.00362069589775155 build_a_small_facility_in_22559
+   + 0.0072413917955031 build_a_medium_facility_in_22559
+   + 0.0144827835910062 build_a_large_facility_in_22559
+   + 0.00362069589775155 build_a_small_facility_in_22560
+   + 0.0072413917955031 build_a_medium_facility_in_22560
+   + 0.0144827835910062 build_a_large_facility_in_22560
+   + 0.00362069589775155 build_a_small_facility_in_22561
+   + 0.0072413917955031 build_a_medium_facility_in_22561
+   + 0.0144827835910062 build_a_large_facility_in_22561
+   + 0.00362069589775155 build_a_small_facility_in_22562
+   + 0.0072413917955031 build_a_medium_facility_in_22562
+   + 0.0144827835910062 build_a_large_facility_in_22562
+   + 0.00362069589775155 build_a_small_facility_in_22563
+   + 0.0072413917955031 build_a_medium_facility_in_22563
+   + 0.0144827835910062 build_a_large_facility_in_22563
+   + 0.00362069589775155 build_a_small_facility_in_22564
+   + 0.0072413917955031 build_a_medium_facility_in_22564
+   + 0.0144827835910062 build_a_large_facility_in_22564
+   + 0.00362069589775155 build_a_small_facility_in_22565
+   + 0.0072413917955031 build_a_medium_facility_in_22565
+   + 0.0144827835910062 build_a_large_facility_in_22565
+   + 0.00362069589775155 build_a_small_facility_in_22566
+   + 0.0072413917955031 build_a_medium_facility_in_22566
+   + 0.0144827835910062 build_a_large_facility_in_22566
+   + 0.00362069589775155 build_a_small_facility_in_22567
+   + 0.0072413917955031 build_a_medium_facility_in_22567
+   + 0.0144827835910062 build_a_large_facility_in_22567
+   + 0.00362069589775155 build_a_small_facility_in_22568
+   + 0.0072413917955031 build_a_medium_facility_in_22568
+   + 0.0144827835910062 build_a_large_facility_in_22568
+   + 0.00362069589775155 build_a_small_facility_in_22569
+   + 0.0072413917955031 build_a_medium_facility_in_22569
+   + 0.0144827835910062 build_a_large_facility_in_22569
+   + 0.00362069589775155 build_a_small_facility_in_22570
+   + 0.0072413917955031 build_a_medium_facility_in_22570
+   + 0.0144827835910062 build_a_large_facility_in_22570
+   + 0.00362069589775155 build_a_small_facility_in_22571
+   + 0.0072413917955031 build_a_medium_facility_in_22571
+   + 0.0144827835910062 build_a_large_facility_in_22571
+   + 0.00362069589775155 build_a_small_facility_in_22572
+   + 0.0072413917955031 build_a_medium_facility_in_22572
+   + 0.0144827835910062 build_a_large_facility_in_22572
+   + 0.00362069589775155 build_a_small_facility_in_22573
+   + 0.0072413917955031 build_a_medium_facility_in_22573
+   + 0.0144827835910062 build_a_large_facility_in_22573
+   + 0.00362069589775155 build_a_small_facility_in_22574
+   + 0.0072413917955031 build_a_medium_facility_in_22574
+   + 0.0144827835910062 build_a_large_facility_in_22574
+   + 0.00362069589775155 build_a_small_facility_in_22575
+   + 0.0072413917955031 build_a_medium_facility_in_22575
+   + 0.0144827835910062 build_a_large_facility_in_22575
+   + 0.00362069589775155 build_a_small_facility_in_22576
+   + 0.0072413917955031 build_a_medium_facility_in_22576
+   + 0.0144827835910062 build_a_large_facility_in_22576
+   + 0.00362069589775155 build_a_small_facility_in_22577
+   + 0.0072413917955031 build_a_medium_facility_in_22577
+   + 0.0144827835910062 build_a_large_facility_in_22577
+   + 0.00362069589775155 build_a_small_facility_in_22578
+   + 0.0072413917955031 build_a_medium_facility_in_22578
+   + 0.0144827835910062 build_a_large_facility_in_22578
+   + 0.00362069589775155 build_a_small_facility_in_22579
+   + 0.0072413917955031 build_a_medium_facility_in_22579
+   + 0.0144827835910062 build_a_large_facility_in_22579
+   + 0.00362069589775155 build_a_small_facility_in_22580
+   + 0.0072413917955031 build_a_medium_facility_in_22580
+   + 0.0144827835910062 build_a_large_facility_in_22580
+   + 0.00362069589775155 build_a_small_facility_in_22581
+   + 0.0072413917955031 build_a_medium_facility_in_22581
+   + 0.0144827835910062 build_a_large_facility_in_22581
+   + 0.00362069589775155 build_a_small_facility_in_22582
+   + 0.0072413917955031 build_a_medium_facility_in_22582
+   + 0.0144827835910062 build_a_large_facility_in_22582
+   + 0.00362069589775155 build_a_small_facility_in_22583
+   + 0.0072413917955031 build_a_medium_facility_in_22583
+   + 0.0144827835910062 build_a_large_facility_in_22583
+   + 0.00362069589775155 build_a_small_facility_in_22584
+   + 0.0072413917955031 build_a_medium_facility_in_22584
+   + 0.0144827835910062 build_a_large_facility_in_22584
+   + 0.00362069589775155 build_a_small_facility_in_22585
+   + 0.0072413917955031 build_a_medium_facility_in_22585
+   + 0.0144827835910062 build_a_large_facility_in_22585
+   + 0.00362069589775155 build_a_small_facility_in_22586
+   + 0.0072413917955031 build_a_medium_facility_in_22586
+   + 0.0144827835910062 build_a_large_facility_in_22586
+   + 0.00362069589775155 build_a_small_facility_in_22587
+   + 0.0072413917955031 build_a_medium_facility_in_22587
+   + 0.0144827835910062 build_a_large_facility_in_22587
+   + 0.00362069589775155 build_a_small_facility_in_22588
+   + 0.0072413917955031 build_a_medium_facility_in_22588
+   + 0.0144827835910062 build_a_large_facility_in_22588
+   + 0.00362069589775155 build_a_small_facility_in_22589
+   + 0.0072413917955031 build_a_medium_facility_in_22589
+   + 0.0144827835910062 build_a_large_facility_in_22589
+   + 0.00362069589775155 build_a_small_facility_in_22590
+   + 0.0072413917955031 build_a_medium_facility_in_22590
+   + 0.0144827835910062 build_a_large_facility_in_22590
+   + 0.00362069589775155 build_a_small_facility_in_22591
+   + 0.0072413917955031 build_a_medium_facility_in_22591
+   + 0.0144827835910062 build_a_large_facility_in_22591
+   + 0.00362069589775155 build_a_small_facility_in_22592
+   + 0.0072413917955031 build_a_medium_facility_in_22592
+   + 0.0144827835910062 build_a_large_facility_in_22592
+   + 0.00362069589775155 build_a_small_facility_in_22593
+   + 0.0072413917955031 build_a_medium_facility_in_22593
+   + 0.0144827835910062 build_a_large_facility_in_22593
+   + 0.00362069589775155 build_a_small_facility_in_22594
+   + 0.0072413917955031 build_a_medium_facility_in_22594
+   + 0.0144827835910062 build_a_large_facility_in_22594
+   + 0.00362069589775155 build_a_small_facility_in_22595
+   + 0.0072413917955031 build_a_medium_facility_in_22595
+   + 0.0144827835910062 build_a_large_facility_in_22595
+   + 0.00362069589775155 build_a_small_facility_in_22596
+   + 0.0072413917955031 build_a_medium_facility_in_22596
+   + 0.0144827835910062 build_a_large_facility_in_22596
+   + 0.00362069589775155 build_a_small_facility_in_22597
+   + 0.0072413917955031 build_a_medium_facility_in_22597
+   + 0.0144827835910062 build_a_large_facility_in_22597
+   + 0.00362069589775155 build_a_small_facility_in_22598
+   + 0.0072413917955031 build_a_medium_facility_in_22598
+   + 0.0144827835910062 build_a_large_facility_in_22598
+   + 0.00362069589775155 build_a_small_facility_in_22599
+   + 0.0072413917955031 build_a_medium_facility_in_22599
+   + 0.0144827835910062 build_a_large_facility_in_22599 - min_slot_ratio
+   >= 0
+ Max_ratio_constraint_for_zip_12960:
+   0.00952380952380952 new_slots_at_facility_12310_between_0%_and_10%
+   + 0.00952380952380952 new_slots_at_facility_12310_between_10%_and_15%
+   + 0.00952380952380952 new_slots_at_facility_12310_between_15%_and_20%
+   + 0.9523809523809524 build_a_small_facility_in_65700
+   + 1.904761904761905 build_a_medium_facility_in_65700
+   + 3.80952380952381 build_a_large_facility_in_65700
+   + 0.9523809523809524 build_a_small_facility_in_65701
+   + 1.904761904761905 build_a_medium_facility_in_65701
+   + 3.80952380952381 build_a_large_facility_in_65701
+   + 0.9523809523809524 build_a_small_facility_in_65702
+   + 1.904761904761905 build_a_medium_facility_in_65702
+   + 3.80952380952381 build_a_large_facility_in_65702
+   + 0.9523809523809524 build_a_small_facility_in_65703
+   + 1.904761904761905 build_a_medium_facility_in_65703
+   + 3.80952380952381 build_a_large_facility_in_65703
+   + 0.9523809523809524 build_a_small_facility_in_65704
+   + 1.904761904761905 build_a_medium_facility_in_65704
+   + 3.80952380952381 build_a_large_facility_in_65704
+   + 0.9523809523809524 build_a_small_facility_in_65705
+   + 1.904761904761905 build_a_medium_facility_in_65705
+   + 3.80952380952381 build_a_large_facility_in_65705
+   + 0.9523809523809524 build_a_small_facility_in_65706
+   + 1.904761904761905 build_a_medium_facility_in_65706
+   + 3.80952380952381 build_a_large_facility_in_65706
+   + 0.9523809523809524 build_a_small_facility_in_65707
+   + 1.904761904761905 build_a_medium_facility_in_65707
+   + 3.80952380952381 build_a_large_facility_in_65707
+   + 0.9523809523809524 build_a_small_facility_in_65708
+   + 1.904761904761905 build_a_medium_facility_in_65708
+   + 3.80952380952381 build_a_large_facility_in_65708
+   + 0.9523809523809524 build_a_small_facility_in_65709
+   + 1.904761904761905 build_a_medium_facility_in_65709
+   + 3.80952380952381 build_a_large_facility_in_65709
+   + 0.9523809523809524 build_a_small_facility_in_65710
+   + 1.904761904761905 build_a_medium_facility_in_65710
+   + 3.80952380952381 build_a_large_facility_in_65710
+   + 0.9523809523809524 build_a_small_facility_in_65711
+   + 1.904761904761905 build_a_medium_facility_in_65711
+   + 3.80952380952381 build_a_large_facility_in_65711
+   + 0.9523809523809524 build_a_small_facility_in_65712
+   + 1.904761904761905 build_a_medium_facility_in_65712
+   + 3.80952380952381 build_a_large_facility_in_65712
+   + 0.9523809523809524 build_a_small_facility_in_65713
+   + 1.904761904761905 build_a_medium_facility_in_65713
+   + 3.80952380952381 build_a_large_facility_in_65713
+   + 0.9523809523809524 build_a_small_facility_in_65714
+   + 1.904761904761905 build_a_medium_facility_in_65714
+   + 3.80952380952381 build_a_large_facility_in_65714
+   + 0.9523809523809524 build_a_small_facility_in_65715
+   + 1.904761904761905 build_a_medium_facility_in_65715
+   + 3.80952380952381 build_a_large_facility_in_65715
+   + 0.9523809523809524 build_a_small_facility_in_65716
+   + 1.904761904761905 build_a_medium_facility_in_65716
+   + 3.80952380952381 build_a_large_facility_in_65716
+   + 0.9523809523809524 build_a_small_facility_in_65717
+   + 1.904761904761905 build_a_medium_facility_in_65717
+   + 3.80952380952381 build_a_large_facility_in_65717
+   + 0.9523809523809524 build_a_small_facility_in_65718
+   + 1.904761904761905 build_a_medium_facility_in_65718
+   + 3.80952380952381 build_a_large_facility_in_65718
+   + 0.9523809523809524 build_a_small_facility_in_65719
+   + 1.904761904761905 build_a_medium_facility_in_65719
+   + 3.80952380952381 build_a_large_facility_in_65719
+   + 0.9523809523809524 build_a_small_facility_in_65720
+   + 1.904761904761905 build_a_medium_facility_in_65720
+   + 3.80952380952381 build_a_large_facility_in_65720
+   + 0.9523809523809524 build_a_small_facility_in_65721
+   + 1.904761904761905 build_a_medium_facility_in_65721
+   + 3.80952380952381 build_a_large_facility_in_65721
+   + 0.9523809523809524 build_a_small_facility_in_65722
+   + 1.904761904761905 build_a_medium_facility_in_65722
+   + 3.80952380952381 build_a_large_facility_in_65722
+   + 0.9523809523809524 build_a_small_facility_in_65723
+   + 1.904761904761905 build_a_medium_facility_in_65723
+   + 3.80952380952381 build_a_large_facility_in_65723
+   + 0.9523809523809524 build_a_small_facility_in_65724
+   + 1.904761904761905 build_a_medium_facility_in_65724
+   + 3.80952380952381 build_a_large_facility_in_65724
+   + 0.9523809523809524 build_a_small_facility_in_65725
+   + 1.904761904761905 build_a_medium_facility_in_65725
+   + 3.80952380952381 build_a_large_facility_in_65725
+   + 0.9523809523809524 build_a_small_facility_in_65726
+   + 1.904761904761905 build_a_medium_facility_in_65726
+   + 3.80952380952381 build_a_large_facility_in_65726
+   + 0.9523809523809524 build_a_small_facility_in_65727
+   + 1.904761904761905 build_a_medium_facility_in_65727
+   + 3.80952380952381 build_a_large_facility_in_65727
+   + 0.9523809523809524 build_a_small_facility_in_65728
+   + 1.904761904761905 build_a_medium_facility_in_65728
+   + 3.80952380952381 build_a_large_facility_in_65728
+   + 0.9523809523809524 build_a_small_facility_in_65729
+   + 1.904761904761905 build_a_medium_facility_in_65729
+   + 3.80952380952381 build_a_large_facility_in_65729
+   + 0.9523809523809524 build_a_small_facility_in_65730
+   + 1.904761904761905 build_a_medium_facility_in_65730
+   + 3.80952380952381 build_a_large_facility_in_65730
+   + 0.9523809523809524 build_a_small_facility_in_65731
+   + 1.904761904761905 build_a_medium_facility_in_65731
+   + 3.80952380952381 build_a_large_facility_in_65731
+   + 0.9523809523809524 build_a_small_facility_in_65732
+   + 1.904761904761905 build_a_medium_facility_in_65732
+   + 3.80952380952381 build_a_large_facility_in_65732
+   + 0.9523809523809524 build_a_small_facility_in_65733
+   + 1.904761904761905 build_a_medium_facility_in_65733
+   + 3.80952380952381 build_a_large_facility_in_65733
+   + 0.9523809523809524 build_a_small_facility_in_65734
+   + 1.904761904761905 build_a_medium_facility_in_65734
+   + 3.80952380952381 build_a_large_facility_in_65734
+   + 0.9523809523809524 build_a_small_facility_in_65735
+   + 1.904761904761905 build_a_medium_facility_in_65735
+   + 3.80952380952381 build_a_large_facility_in_65735
+   + 0.9523809523809524 build_a_small_facility_in_65736
+   + 1.904761904761905 build_a_medium_facility_in_65736
+   + 3.80952380952381 build_a_large_facility_in_65736
+   + 0.9523809523809524 build_a_small_facility_in_65737
+   + 1.904761904761905 build_a_medium_facility_in_65737
+   + 3.80952380952381 build_a_large_facility_in_65737
+   + 0.9523809523809524 build_a_small_facility_in_65738
+   + 1.904761904761905 build_a_medium_facility_in_65738
+   + 3.80952380952381 build_a_large_facility_in_65738
+   + 0.9523809523809524 build_a_small_facility_in_65739
+   + 1.904761904761905 build_a_medium_facility_in_65739
+   + 3.80952380952381 build_a_large_facility_in_65739
+   + 0.9523809523809524 build_a_small_facility_in_65740
+   + 1.904761904761905 build_a_medium_facility_in_65740
+   + 3.80952380952381 build_a_large_facility_in_65740
+   + 0.9523809523809524 build_a_small_facility_in_65741
+   + 1.904761904761905 build_a_medium_facility_in_65741
+   + 3.80952380952381 build_a_large_facility_in_65741
+   + 0.9523809523809524 build_a_small_facility_in_65742
+   + 1.904761904761905 build_a_medium_facility_in_65742
+   + 3.80952380952381 build_a_large_facility_in_65742
+   + 0.9523809523809524 build_a_small_facility_in_65743
+   + 1.904761904761905 build_a_medium_facility_in_65743
+   + 3.80952380952381 build_a_large_facility_in_65743
+   + 0.9523809523809524 build_a_small_facility_in_65744
+   + 1.904761904761905 build_a_medium_facility_in_65744
+   + 3.80952380952381 build_a_large_facility_in_65744
+   + 0.9523809523809524 build_a_small_facility_in_65745
+   + 1.904761904761905 build_a_medium_facility_in_65745
+   + 3.80952380952381 build_a_large_facility_in_65745
+   + 0.9523809523809524 build_a_small_facility_in_65746
+   + 1.904761904761905 build_a_medium_facility_in_65746
+   + 3.80952380952381 build_a_large_facility_in_65746
+   + 0.9523809523809524 build_a_small_facility_in_65747
+   + 1.904761904761905 build_a_medium_facility_in_65747
+   + 3.80952380952381 build_a_large_facility_in_65747
+   + 0.9523809523809524 build_a_small_facility_in_65748
+   + 1.904761904761905 build_a_medium_facility_in_65748
+   + 3.80952380952381 build_a_large_facility_in_65748
+   + 0.9523809523809524 build_a_small_facility_in_65749
+   + 1.904761904761905 build_a_medium_facility_in_65749
+   + 3.80952380952381 build_a_large_facility_in_65749
+   + 0.9523809523809524 build_a_small_facility_in_65750
+   + 1.904761904761905 build_a_medium_facility_in_65750
+   + 3.80952380952381 build_a_large_facility_in_65750
+   + 0.9523809523809524 build_a_small_facility_in_65751
+   + 1.904761904761905 build_a_medium_facility_in_65751
+   + 3.80952380952381 build_a_large_facility_in_65751
+   + 0.9523809523809524 build_a_small_facility_in_65752
+   + 1.904761904761905 build_a_medium_facility_in_65752
+   + 3.80952380952381 build_a_large_facility_in_65752
+   + 0.9523809523809524 build_a_small_facility_in_65753
+   + 1.904761904761905 build_a_medium_facility_in_65753
+   + 3.80952380952381 build_a_large_facility_in_65753
+   + 0.9523809523809524 build_a_small_facility_in_65754
+   + 1.904761904761905 build_a_medium_facility_in_65754
+   + 3.80952380952381 build_a_large_facility_in_65754
+   + 0.9523809523809524 build_a_small_facility_in_65755
+   + 1.904761904761905 build_a_medium_facility_in_65755
+   + 3.80952380952381 build_a_large_facility_in_65755
+   + 0.9523809523809524 build_a_small_facility_in_65756
+   + 1.904761904761905 build_a_medium_facility_in_65756
+   + 3.80952380952381 build_a_large_facility_in_65756
+   + 0.9523809523809524 build_a_small_facility_in_65757
+   + 1.904761904761905 build_a_medium_facility_in_65757
+   + 3.80952380952381 build_a_large_facility_in_65757
+   + 0.9523809523809524 build_a_small_facility_in_65758
+   + 1.904761904761905 build_a_medium_facility_in_65758
+   + 3.80952380952381 build_a_large_facility_in_65758
+   + 0.9523809523809524 build_a_small_facility_in_65759
+   + 1.904761904761905 build_a_medium_facility_in_65759
+   + 3.80952380952381 build_a_large_facility_in_65759
+   + 0.9523809523809524 build_a_small_facility_in_65760
+   + 1.904761904761905 build_a_medium_facility_in_65760
+   + 3.80952380952381 build_a_large_facility_in_65760
+   + 0.9523809523809524 build_a_small_facility_in_65761
+   + 1.904761904761905 build_a_medium_facility_in_65761
+   + 3.80952380952381 build_a_large_facility_in_65761
+   + 0.9523809523809524 build_a_small_facility_in_65762
+   + 1.904761904761905 build_a_medium_facility_in_65762
+   + 3.80952380952381 build_a_large_facility_in_65762
+   + 0.9523809523809524 build_a_small_facility_in_65763
+   + 1.904761904761905 build_a_medium_facility_in_65763
+   + 3.80952380952381 build_a_large_facility_in_65763
+   + 0.9523809523809524 build_a_small_facility_in_65764
+   + 1.904761904761905 build_a_medium_facility_in_65764
+   + 3.80952380952381 build_a_large_facility_in_65764
+   + 0.9523809523809524 build_a_small_facility_in_65765
+   + 1.904761904761905 build_a_medium_facility_in_65765
+   + 3.80952380952381 build_a_large_facility_in_65765
+   + 0.9523809523809524 build_a_small_facility_in_65766
+   + 1.904761904761905 build_a_medium_facility_in_65766
+   + 3.80952380952381 build_a_large_facility_in_65766
+   + 0.9523809523809524 build_a_small_facility_in_65767
+   + 1.904761904761905 build_a_medium_facility_in_65767
+   + 3.80952380952381 build_a_large_facility_in_65767
+   + 0.9523809523809524 build_a_small_facility_in_65768
+   + 1.904761904761905 build_a_medium_facility_in_65768
+   + 3.80952380952381 build_a_large_facility_in_65768
+   + 0.9523809523809524 build_a_small_facility_in_65769
+   + 1.904761904761905 build_a_medium_facility_in_65769
+   + 3.80952380952381 build_a_large_facility_in_65769
+   + 0.9523809523809524 build_a_small_facility_in_65770
+   + 1.904761904761905 build_a_medium_facility_in_65770
+   + 3.80952380952381 build_a_large_facility_in_65770
+   + 0.9523809523809524 build_a_small_facility_in_65771
+   + 1.904761904761905 build_a_medium_facility_in_65771
+   + 3.80952380952381 build_a_large_facility_in_65771
+   + 0.9523809523809524 build_a_small_facility_in_65772
+   + 1.904761904761905 build_a_medium_facility_in_65772
+   + 3.80952380952381 build_a_large_facility_in_65772
+   + 0.9523809523809524 build_a_small_facility_in_65773
+   + 1.904761904761905 build_a_medium_facility_in_65773
+   + 3.80952380952381 build_a_large_facility_in_65773
+   + 0.9523809523809524 build_a_small_facility_in_65774
+   + 1.904761904761905 build_a_medium_facility_in_65774
+   + 3.80952380952381 build_a_large_facility_in_65774
+   + 0.9523809523809524 build_a_small_facility_in_65775
+   + 1.904761904761905 build_a_medium_facility_in_65775
+   + 3.80952380952381 build_a_large_facility_in_65775
+   + 0.9523809523809524 build_a_small_facility_in_65776
+   + 1.904761904761905 build_a_medium_facility_in_65776
+   + 3.80952380952381 build_a_large_facility_in_65776
+   + 0.9523809523809524 build_a_small_facility_in_65777
+   + 1.904761904761905 build_a_medium_facility_in_65777
+   + 3.80952380952381 build_a_large_facility_in_65777
+   + 0.9523809523809524 build_a_small_facility_in_65778
+   + 1.904761904761905 build_a_medium_facility_in_65778
+   + 3.80952380952381 build_a_large_facility_in_65778
+   + 0.9523809523809524 build_a_small_facility_in_65779
+   + 1.904761904761905 build_a_medium_facility_in_65779
+   + 3.80952380952381 build_a_large_facility_in_65779
+   + 0.9523809523809524 build_a_small_facility_in_65780
+   + 1.904761904761905 build_a_medium_facility_in_65780
+   + 3.80952380952381 build_a_large_facility_in_65780
+   + 0.9523809523809524 build_a_small_facility_in_65781
+   + 1.904761904761905 build_a_medium_facility_in_65781
+   + 3.80952380952381 build_a_large_facility_in_65781
+   + 0.9523809523809524 build_a_small_facility_in_65782
+   + 1.904761904761905 build_a_medium_facility_in_65782
+   + 3.80952380952381 build_a_large_facility_in_65782
+   + 0.9523809523809524 build_a_small_facility_in_65783
+   + 1.904761904761905 build_a_medium_facility_in_65783
+   + 3.80952380952381 build_a_large_facility_in_65783
+   + 0.9523809523809524 build_a_small_facility_in_65784
+   + 1.904761904761905 build_a_medium_facility_in_65784
+   + 3.80952380952381 build_a_large_facility_in_65784
+   + 0.9523809523809524 build_a_small_facility_in_65785
+   + 1.904761904761905 build_a_medium_facility_in_65785
+   + 3.80952380952381 build_a_large_facility_in_65785
+   + 0.9523809523809524 build_a_small_facility_in_65786
+   + 1.904761904761905 build_a_medium_facility_in_65786
+   + 3.80952380952381 build_a_large_facility_in_65786
+   + 0.9523809523809524 build_a_small_facility_in_65787
+   + 1.904761904761905 build_a_medium_facility_in_65787
+   + 3.80952380952381 build_a_large_facility_in_65787
+   + 0.9523809523809524 build_a_small_facility_in_65788
+   + 1.904761904761905 build_a_medium_facility_in_65788
+   + 3.80952380952381 build_a_large_facility_in_65788
+   + 0.9523809523809524 build_a_small_facility_in_65789
+   + 1.904761904761905 build_a_medium_facility_in_65789
+   + 3.80952380952381 build_a_large_facility_in_65789
+   + 0.9523809523809524 build_a_small_facility_in_65790
+   + 1.904761904761905 build_a_medium_facility_in_65790
+   + 3.80952380952381 build_a_large_facility_in_65790
+   + 0.9523809523809524 build_a_small_facility_in_65791
+   + 1.904761904761905 build_a_medium_facility_in_65791
+   + 3.80952380952381 build_a_large_facility_in_65791
+   + 0.9523809523809524 build_a_small_facility_in_65792
+   + 1.904761904761905 build_a_medium_facility_in_65792
+   + 3.80952380952381 build_a_large_facility_in_65792
+   + 0.9523809523809524 build_a_small_facility_in_65793
+   + 1.904761904761905 build_a_medium_facility_in_65793
+   + 3.80952380952381 build_a_large_facility_in_65793
+   + 0.9523809523809524 build_a_small_facility_in_65794
+   + 1.904761904761905 build_a_medium_facility_in_65794
+   + 3.80952380952381 build_a_large_facility_in_65794
+   + 0.9523809523809524 build_a_small_facility_in_65795
+   + 1.904761904761905 build_a_medium_facility_in_65795
+   + 3.80952380952381 build_a_large_facility_in_65795
+   + 0.9523809523809524 build_a_small_facility_in_65796
+   + 1.904761904761905 build_a_medium_facility_in_65796
+   + 3.80952380952381 build_a_large_facility_in_65796
+   + 0.9523809523809524 build_a_small_facility_in_65797
+   + 1.904761904761905 build_a_medium_facility_in_65797
+   + 3.80952380952381 build_a_large_facility_in_65797
+   + 0.9523809523809524 build_a_small_facility_in_65798
+   + 1.904761904761905 build_a_medium_facility_in_65798
+   + 3.80952380952381 build_a_large_facility_in_65798
+   + 0.9523809523809524 build_a_small_facility_in_65799
+   + 1.904761904761905 build_a_medium_facility_in_65799
+   + 3.80952380952381 build_a_large_facility_in_65799 - max_slot_ratio
+   <= 0
+ Fairness_constraint: - min_slot_ratio + max_slot_ratio <= 0.1
+ Maximum_expansion_rate_6773: new_slots_at_facility_6773_between_0%_and_10%
+   + new_slots_at_facility_6773_between_10%_and_15%
+   + new_slots_at_facility_6773_between_15%_and_20% <= 2
+ Maximum_expansion_rate_6786: new_slots_at_facility_6786_between_0%_and_10%
+   + new_slots_at_facility_6786_between_10%_and_15%
+   + new_slots_at_facility_6786_between_15%_and_20% <= 60
+ R38973: - new_slots_at_facility_12310_between_0%_and_10%
+   - new_slots_at_facility_12310_between_10%_and_15%
+   - new_slots_at_facility_12310_between_15%_and_20%
+   + new_slots_for_children_under_5_at_facility_12310 <= 0
+ R47622: new_slots_for_children_under_5_at_facility_12310
+   + 50 build_a_small_facility_in_65700
+   + 100 build_a_medium_facility_in_65700
+   + 200 build_a_large_facility_in_65700
+   + 50 build_a_small_facility_in_65701
+   + 100 build_a_medium_facility_in_65701
+   + 200 build_a_large_facility_in_65701
+   + 50 build_a_small_facility_in_65702
+   + 100 build_a_medium_facility_in_65702
+   + 200 build_a_large_facility_in_65702
+   + 50 build_a_small_facility_in_65703
+   + 100 build_a_medium_facility_in_65703
+   + 200 build_a_large_facility_in_65703
+   + 50 build_a_small_facility_in_65704
+   + 100 build_a_medium_facility_in_65704
+   + 200 build_a_large_facility_in_65704
+   + 50 build_a_small_facility_in_65705
+   + 100 build_a_medium_facility_in_65705
+   + 200 build_a_large_facility_in_65705
+   + 50 build_a_small_facility_in_65706
+   + 100 build_a_medium_facility_in_65706
+   + 200 build_a_large_facility_in_65706
+   + 50 build_a_small_facility_in_65707
+   + 100 build_a_medium_facility_in_65707
+   + 200 build_a_large_facility_in_65707
+   + 50 build_a_small_facility_in_65708
+   + 100 build_a_medium_facility_in_65708
+   + 200 build_a_large_facility_in_65708
+   + 50 build_a_small_facility_in_65709
+   + 100 build_a_medium_facility_in_65709
+   + 200 build_a_large_facility_in_65709
+   + 50 build_a_small_facility_in_65710
+   + 100 build_a_medium_facility_in_65710
+   + 200 build_a_large_facility_in_65710
+   + 50 build_a_small_facility_in_65711
+   + 100 build_a_medium_facility_in_65711
+   + 200 build_a_large_facility_in_65711
+   + 50 build_a_small_facility_in_65712
+   + 100 build_a_medium_facility_in_65712
+   + 200 build_a_large_facility_in_65712
+   + 50 build_a_small_facility_in_65713
+   + 100 build_a_medium_facility_in_65713
+   + 200 build_a_large_facility_in_65713
+   + 50 build_a_small_facility_in_65714
+   + 100 build_a_medium_facility_in_65714
+   + 200 build_a_large_facility_in_65714
+   + 50 build_a_small_facility_in_65715
+   + 100 build_a_medium_facility_in_65715
+   + 200 build_a_large_facility_in_65715
+   + 50 build_a_small_facility_in_65716
+   + 100 build_a_medium_facility_in_65716
+   + 200 build_a_large_facility_in_65716
+   + 50 build_a_small_facility_in_65717
+   + 100 build_a_medium_facility_in_65717
+   + 200 build_a_large_facility_in_65717
+   + 50 build_a_small_facility_in_65718
+   + 100 build_a_medium_facility_in_65718
+   + 200 build_a_large_facility_in_65718
+   + 50 build_a_small_facility_in_65719
+   + 100 build_a_medium_facility_in_65719
+   + 200 build_a_large_facility_in_65719
+   + 50 build_a_small_facility_in_65720
+   + 100 build_a_medium_facility_in_65720
+   + 200 build_a_large_facility_in_65720
+   + 50 build_a_small_facility_in_65721
+   + 100 build_a_medium_facility_in_65721
+   + 200 build_a_large_facility_in_65721
+   + 50 build_a_small_facility_in_65722
+   + 100 build_a_medium_facility_in_65722
+   + 200 build_a_large_facility_in_65722
+   + 50 build_a_small_facility_in_65723
+   + 100 build_a_medium_facility_in_65723
+   + 200 build_a_large_facility_in_65723
+   + 50 build_a_small_facility_in_65724
+   + 100 build_a_medium_facility_in_65724
+   + 200 build_a_large_facility_in_65724
+   + 50 build_a_small_facility_in_65725
+   + 100 build_a_medium_facility_in_65725
+   + 200 build_a_large_facility_in_65725
+   + 50 build_a_small_facility_in_65726
+   + 100 build_a_medium_facility_in_65726
+   + 200 build_a_large_facility_in_65726
+   + 50 build_a_small_facility_in_65727
+   + 100 build_a_medium_facility_in_65727
+   + 200 build_a_large_facility_in_65727
+   + 50 build_a_small_facility_in_65728
+   + 100 build_a_medium_facility_in_65728
+   + 200 build_a_large_facility_in_65728
+   + 50 build_a_small_facility_in_65729
+   + 100 build_a_medium_facility_in_65729
+   + 200 build_a_large_facility_in_65729
+   + 50 build_a_small_facility_in_65730
+   + 100 build_a_medium_facility_in_65730
+   + 200 build_a_large_facility_in_65730
+   + 50 build_a_small_facility_in_65731
+   + 100 build_a_medium_facility_in_65731
+   + 200 build_a_large_facility_in_65731
+   + 50 build_a_small_facility_in_65732
+   + 100 build_a_medium_facility_in_65732
+   + 200 build_a_large_facility_in_65732
+   + 50 build_a_small_facility_in_65733
+   + 100 build_a_medium_facility_in_65733
+   + 200 build_a_large_facility_in_65733
+   + 50 build_a_small_facility_in_65734
+   + 100 build_a_medium_facility_in_65734
+   + 200 build_a_large_facility_in_65734
+   + 50 build_a_small_facility_in_65735
+   + 100 build_a_medium_facility_in_65735
+   + 200 build_a_large_facility_in_65735
+   + 50 build_a_small_facility_in_65736
+   + 100 build_a_medium_facility_in_65736
+   + 200 build_a_large_facility_in_65736
+   + 50 build_a_small_facility_in_65737
+   + 100 build_a_medium_facility_in_65737
+   + 200 build_a_large_facility_in_65737
+   + 50 build_a_small_facility_in_65738
+   + 100 build_a_medium_facility_in_65738
+   + 200 build_a_large_facility_in_65738
+   + 50 build_a_small_facility_in_65739
+   + 100 build_a_medium_facility_in_65739
+   + 200 build_a_large_facility_in_65739
+   + 50 build_a_small_facility_in_65740
+   + 100 build_a_medium_facility_in_65740
+   + 200 build_a_large_facility_in_65740
+   + 50 build_a_small_facility_in_65741
+   + 100 build_a_medium_facility_in_65741
+   + 200 build_a_large_facility_in_65741
+   + 50 build_a_small_facility_in_65742
+   + 100 build_a_medium_facility_in_65742
+   + 200 build_a_large_facility_in_65742
+   + 50 build_a_small_facility_in_65743
+   + 100 build_a_medium_facility_in_65743
+   + 200 build_a_large_facility_in_65743
+   + 50 build_a_small_facility_in_65744
+   + 100 build_a_medium_facility_in_65744
+   + 200 build_a_large_facility_in_65744
+   + 50 build_a_small_facility_in_65745
+   + 100 build_a_medium_facility_in_65745
+   + 200 build_a_large_facility_in_65745
+   + 50 build_a_small_facility_in_65746
+   + 100 build_a_medium_facility_in_65746
+   + 200 build_a_large_facility_in_65746
+   + 50 build_a_small_facility_in_65747
+   + 100 build_a_medium_facility_in_65747
+   + 200 build_a_large_facility_in_65747
+   + 50 build_a_small_facility_in_65748
+   + 100 build_a_medium_facility_in_65748
+   + 200 build_a_large_facility_in_65748
+   + 50 build_a_small_facility_in_65749
+   + 100 build_a_medium_facility_in_65749
+   + 200 build_a_large_facility_in_65749
+   + 50 build_a_small_facility_in_65750
+   + 100 build_a_medium_facility_in_65750
+   + 200 build_a_large_facility_in_65750
+   + 50 build_a_small_facility_in_65751
+   + 100 build_a_medium_facility_in_65751
+   + 200 build_a_large_facility_in_65751
+   + 50 build_a_small_facility_in_65752
+   + 100 build_a_medium_facility_in_65752
+   + 200 build_a_large_facility_in_65752
+   + 50 build_a_small_facility_in_65753
+   + 100 build_a_medium_facility_in_65753
+   + 200 build_a_large_facility_in_65753
+   + 50 build_a_small_facility_in_65754
+   + 100 build_a_medium_facility_in_65754
+   + 200 build_a_large_facility_in_65754
+   + 50 build_a_small_facility_in_65755
+   + 100 build_a_medium_facility_in_65755
+   + 200 build_a_large_facility_in_65755
+   + 50 build_a_small_facility_in_65756
+   + 100 build_a_medium_facility_in_65756
+   + 200 build_a_large_facility_in_65756
+   + 50 build_a_small_facility_in_65757
+   + 100 build_a_medium_facility_in_65757
+   + 200 build_a_large_facility_in_65757
+   + 50 build_a_small_facility_in_65758
+   + 100 build_a_medium_facility_in_65758
+   + 200 build_a_large_facility_in_65758
+   + 50 build_a_small_facility_in_65759
+   + 100 build_a_medium_facility_in_65759
+   + 200 build_a_large_facility_in_65759
+   + 50 build_a_small_facility_in_65760
+   + 100 build_a_medium_facility_in_65760
+   + 200 build_a_large_facility_in_65760
+   + 50 build_a_small_facility_in_65761
+   + 100 build_a_medium_facility_in_65761
+   + 200 build_a_large_facility_in_65761
+   + 50 build_a_small_facility_in_65762
+   + 100 build_a_medium_facility_in_65762
+   + 200 build_a_large_facility_in_65762
+   + 50 build_a_small_facility_in_65763
+   + 100 build_a_medium_facility_in_65763
+   + 200 build_a_large_facility_in_65763
+   + 50 build_a_small_facility_in_65764
+   + 100 build_a_medium_facility_in_65764
+   + 200 build_a_large_facility_in_65764
+   + 50 build_a_small_facility_in_65765
+   + 100 build_a_medium_facility_in_65765
+   + 200 build_a_large_facility_in_65765
+   + 50 build_a_small_facility_in_65766
+   + 100 build_a_medium_facility_in_65766
+   + 200 build_a_large_facility_in_65766
+   + 50 build_a_small_facility_in_65767
+   + 100 build_a_medium_facility_in_65767
+   + 200 build_a_large_facility_in_65767
+   + 50 build_a_small_facility_in_65768
+   + 100 build_a_medium_facility_in_65768
+   + 200 build_a_large_facility_in_65768
+   + 50 build_a_small_facility_in_65769
+   + 100 build_a_medium_facility_in_65769
+   + 200 build_a_large_facility_in_65769
+   + 50 build_a_small_facility_in_65770
+   + 100 build_a_medium_facility_in_65770
+   + 200 build_a_large_facility_in_65770
+   + 50 build_a_small_facility_in_65771
+   + 100 build_a_medium_facility_in_65771
+   + 200 build_a_large_facility_in_65771
+   + 50 build_a_small_facility_in_65772
+   + 100 build_a_medium_facility_in_65772
+   + 200 build_a_large_facility_in_65772
+   + 50 build_a_small_facility_in_65773
+   + 100 build_a_medium_facility_in_65773
+   + 200 build_a_large_facility_in_65773
+   + 50 build_a_small_facility_in_65774
+   + 100 build_a_medium_facility_in_65774
+   + 200 build_a_large_facility_in_65774
+   + 50 build_a_small_facility_in_65775
+   + 100 build_a_medium_facility_in_65775
+   + 200 build_a_large_facility_in_65775
+   + 50 build_a_small_facility_in_65776
+   + 100 build_a_medium_facility_in_65776
+   + 200 build_a_large_facility_in_65776
+   + 50 build_a_small_facility_in_65777
+   + 100 build_a_medium_facility_in_65777
+   + 200 build_a_large_facility_in_65777
+   + 50 build_a_small_facility_in_65778
+   + 100 build_a_medium_facility_in_65778
+   + 200 build_a_large_facility_in_65778
+   + 50 build_a_small_facility_in_65779
+   + 100 build_a_medium_facility_in_65779
+   + 200 build_a_large_facility_in_65779
+   + 50 build_a_small_facility_in_65780
+   + 100 build_a_medium_facility_in_65780
+   + 200 build_a_large_facility_in_65780
+   + 50 build_a_small_facility_in_65781
+   + 100 build_a_medium_facility_in_65781
+   + 200 build_a_large_facility_in_65781
+   + 50 build_a_small_facility_in_65782
+   + 100 build_a_medium_facility_in_65782
+   + 200 build_a_large_facility_in_65782
+   + 50 build_a_small_facility_in_65783
+   + 100 build_a_medium_facility_in_65783
+   + 200 build_a_large_facility_in_65783
+   + 50 build_a_small_facility_in_65784
+   + 100 build_a_medium_facility_in_65784
+   + 200 build_a_large_facility_in_65784
+   + 50 build_a_small_facility_in_65785
+   + 100 build_a_medium_facility_in_65785
+   + 200 build_a_large_facility_in_65785
+   + 50 build_a_small_facility_in_65786
+   + 100 build_a_medium_facility_in_65786
+   + 200 build_a_large_facility_in_65786
+   + 50 build_a_small_facility_in_65787
+   + 100 build_a_medium_facility_in_65787
+   + 200 build_a_large_facility_in_65787
+   + 50 build_a_small_facility_in_65788
+   + 100 build_a_medium_facility_in_65788
+   + 200 build_a_large_facility_in_65788
+   + 50 build_a_small_facility_in_65789
+   + 100 build_a_medium_facility_in_65789
+   + 200 build_a_large_facility_in_65789
+   + 50 build_a_small_facility_in_65790
+   + 100 build_a_medium_facility_in_65790
+   + 200 build_a_large_facility_in_65790
+   + 50 build_a_small_facility_in_65791
+   + 100 build_a_medium_facility_in_65791
+   + 200 build_a_large_facility_in_65791
+   + 50 build_a_small_facility_in_65792
+   + 100 build_a_medium_facility_in_65792
+   + 200 build_a_large_facility_in_65792
+   + 50 build_a_small_facility_in_65793
+   + 100 build_a_medium_facility_in_65793
+   + 200 build_a_large_facility_in_65793
+   + 50 build_a_small_facility_in_65794
+   + 100 build_a_medium_facility_in_65794
+   + 200 build_a_large_facility_in_65794
+   + 50 build_a_small_facility_in_65795
+   + 100 build_a_medium_facility_in_65795
+   + 200 build_a_large_facility_in_65795
+   + 50 build_a_small_facility_in_65796
+   + 100 build_a_medium_facility_in_65796
+   + 200 build_a_large_facility_in_65796
+   + 50 build_a_small_facility_in_65797
+   + 100 build_a_medium_facility_in_65797
+   + 200 build_a_large_facility_in_65797
+   + 50 build_a_small_facility_in_65798
+   + 100 build_a_medium_facility_in_65798
+   + 200 build_a_large_facility_in_65798
+   + 50 build_a_small_facility_in_65799
+   + 100 build_a_medium_facility_in_65799
+   + 200 build_a_large_facility_in_65799 >= 59
+ One_type_for_22530: build_a_small_facility_in_22530
+   + build_a_medium_facility_in_22530 + build_a_large_facility_in_22530
+   <= 1
+ One_type_for_22541: build_a_small_facility_in_22541
+   + build_a_medium_facility_in_22541 + build_a_large_facility_in_22541
+   <= 1
+ One_type_for_22544: build_a_small_facility_in_22544
+   + build_a_medium_facility_in_22544 + build_a_large_facility_in_22544
+   <= 1
+ One_type_for_22570: build_a_small_facility_in_22570
+   + build_a_medium_facility_in_22570 + build_a_large_facility_in_22570
+   <= 1
+ One_type_for_22580: build_a_small_facility_in_22580
+   + build_a_medium_facility_in_22580 + build_a_large_facility_in_22580
+   <= 1
+ One_type_for_22583: build_a_small_facility_in_22583
+   + build_a_medium_facility_in_22583 + build_a_large_facility_in_22583
+   <= 1
+ One_type_for_22590: build_a_small_facility_in_22590
+   + build_a_medium_facility_in_22590 + build_a_large_facility_in_22590
+   <= 1
+ 200_2: new_slots_at_facility_6765_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6765_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6765_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6766_between_0%_and_10% <= 21
+ 400_2: new_slots_at_facility_6766_between_10%_and_15% - 11 10% <= 0
+ 1000_2: new_slots_at_facility_6766_between_15%_and_20% - 10 15% <= 0
+ 200_2: new_slots_at_facility_6767_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6767_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6767_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6768_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6768_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6768_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6769_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6769_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6769_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6770_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6770_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6770_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6771_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6771_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6771_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6772_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6772_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6772_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6774_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6774_between_10%_and_15% <= 0
+ 1000_2: new_slots_at_facility_6774_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6775_between_0%_and_10% <= 21
+ 400_2: new_slots_at_facility_6775_between_10%_and_15% - 11 10% <= 0
+ 1000_2: new_slots_at_facility_6775_between_15%_and_20% - 11 15% <= 0
+ 200_2: new_slots_at_facility_6776_between_0%_and_10% <= 0
+ 400_2: new_slots_at_facility_6776_between_10%_and_15% <= 0
+ 1000_2: new_slots_at_facility_6776_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6777_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6777_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6777_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6778_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6778_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6778_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6779_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6779_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6779_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6780_between_0%_and_10% <= 24
+ 400_2: new_slots_at_facility_6780_between_10%_and_15% - 13 10% <= 0
+ 1000_2: new_slots_at_facility_6780_between_15%_and_20% - 12 15% <= 0
+ 200_2: new_slots_at_facility_6781_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6781_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6781_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6782_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6782_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6782_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6783_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6783_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6783_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6784_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6784_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6784_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6785_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6785_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6785_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6787_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6787_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6787_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6788_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6788_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6788_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6789_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6789_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6789_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6790_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6790_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6790_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6791_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6791_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6791_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6792_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6792_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6792_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6793_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6793_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6793_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6794_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6794_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6794_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6795_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6795_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6795_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6796_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6796_between_10%_and_15% <= 0
+ 1000_2: new_slots_at_facility_6796_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6797_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6797_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6797_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6798_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6798_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6798_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6799_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6799_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6799_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6800_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6800_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6800_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6801_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6801_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6801_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6802_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6802_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6802_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6803_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6803_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6803_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6804_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6804_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6804_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6805_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6805_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6805_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6806_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6806_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6806_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6807_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6807_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6807_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6808_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6808_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6808_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6809_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6809_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6809_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6810_between_0%_and_10% <= 12
+ 400_2: new_slots_at_facility_6810_between_10%_and_15% - 6 10% <= 0
+ 1000_2: new_slots_at_facility_6810_between_15%_and_20% - 6 15% <= 0
+ 200_2: new_slots_at_facility_6811_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6811_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6811_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6812_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6812_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6812_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6813_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6813_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6813_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6814_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6814_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6814_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6815_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6815_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6815_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6816_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6816_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6816_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6817_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6817_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6817_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6818_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6818_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6818_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6819_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6819_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6819_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6820_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6820_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6820_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6821_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6821_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6821_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6822_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6822_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6822_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6823_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6823_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6823_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6824_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6824_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6824_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6825_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6825_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6825_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6826_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6826_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6826_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6827_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6827_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6827_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6828_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6828_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6828_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6829_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6829_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6829_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6830_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6830_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6830_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6831_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6831_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6831_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6832_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6832_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6832_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6833_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6833_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6833_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6834_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6834_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6834_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6835_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6835_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6835_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6836_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6836_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6836_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6837_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6837_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6837_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6838_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6838_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6838_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6839_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6839_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6839_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6840_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6840_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6840_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6841_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6841_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6841_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6842_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6842_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6842_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6843_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6843_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6843_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6844_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6844_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6844_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6845_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6845_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6845_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6846_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6846_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6846_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6847_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6847_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6847_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6848_between_0%_and_10% <= 16
+ 400_2: new_slots_at_facility_6848_between_10%_and_15% - 8 10% <= 0
+ 1000_2: new_slots_at_facility_6848_between_15%_and_20% - 9 15% <= 0
+ 200_2: new_slots_at_facility_6849_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6849_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6849_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6850_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6850_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6850_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6851_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6851_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6851_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6852_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6852_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6852_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6853_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6853_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6853_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6854_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6854_between_10%_and_15% <= 0
+ 1000_2: new_slots_at_facility_6854_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_6855_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_6855_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_6855_between_15%_and_20% - 15% <= 0
+ 200_2: new_slots_at_facility_12310_between_0%_and_10% <= 1
+ 400_2: new_slots_at_facility_12310_between_10%_and_15% - 10% <= 0
+ 1000_2: new_slots_at_facility_12310_between_15%_and_20% - 15% <= 0
+ R251523: build_a_small_facility_in_22552
+   + build_a_medium_facility_in_22552 + build_a_large_facility_in_22552
+   = 0
+ R251524: build_a_small_facility_in_22558
+   + build_a_medium_facility_in_22558 + build_a_large_facility_in_22558
+   = 0
+ R251525: build_a_small_facility_in_22563
+   + build_a_medium_facility_in_22563 + build_a_large_facility_in_22563
+   = 0
+ R251526: build_a_small_facility_in_22501
+   + build_a_medium_facility_in_22501 + build_a_large_facility_in_22501
+   = 0
+ R251527: build_a_small_facility_in_22532
+   + build_a_medium_facility_in_22532 + build_a_large_facility_in_22532
+   = 0
+ R251531: build_a_small_facility_in_22574
+   + build_a_medium_facility_in_22574 + build_a_large_facility_in_22574
+   = 0
+ R251535: build_a_small_facility_in_22528
+   + build_a_medium_facility_in_22528 + build_a_large_facility_in_22528
+   = 0
+ R251536: build_a_small_facility_in_22579
+   + build_a_medium_facility_in_22579 + build_a_large_facility_in_22579
+   = 0
+ R251540: build_a_small_facility_in_22526
+   + build_a_medium_facility_in_22526 + build_a_large_facility_in_22526
+   = 0
+ R251541: build_a_small_facility_in_22559
+   + build_a_medium_facility_in_22559 + build_a_large_facility_in_22559
+   = 0
+ R251542: build_a_small_facility_in_22566
+   + build_a_medium_facility_in_22566 + build_a_large_facility_in_22566
+   = 0
+ R251543: build_a_small_facility_in_22502
+   + build_a_medium_facility_in_22502 + build_a_large_facility_in_22502
+   = 0
+ R251544: build_a_small_facility_in_22527
+   + build_a_medium_facility_in_22527 + build_a_large_facility_in_22527
+   = 0
+ R251545: build_a_small_facility_in_22508
+   + build_a_medium_facility_in_22508 + build_a_large_facility_in_22508
+   = 0
+ R251546: build_a_small_facility_in_22539
+   + build_a_medium_facility_in_22539 + build_a_large_facility_in_22539
+   = 0
+ R251550: build_a_small_facility_in_22537
+   + build_a_medium_facility_in_22537 + build_a_large_facility_in_22537
+   = 0
+ R251561: build_a_small_facility_in_22545
+   + build_a_medium_facility_in_22545 + build_a_large_facility_in_22545
+   = 0
+ R251564: build_a_small_facility_in_22592
+   + build_a_medium_facility_in_22592 + build_a_large_facility_in_22592
+   = 0
+ R251566: build_a_small_facility_in_22576
+   + build_a_medium_facility_in_22576 + build_a_large_facility_in_22576
+   = 0
+ R251572: build_a_small_facility_in_22521
+   + build_a_medium_facility_in_22521 + build_a_large_facility_in_22521
+   = 0
+ R251573: build_a_small_facility_in_22571
+   + build_a_medium_facility_in_22571 + build_a_large_facility_in_22571
+   = 0
+ R251577: build_a_small_facility_in_22514
+   + build_a_medium_facility_in_22514 + build_a_large_facility_in_22514
+   = 0
+ R251581: build_a_small_facility_in_22578
+   + build_a_medium_facility_in_22578 + build_a_large_facility_in_22578
+   = 0
+ R251582: build_a_small_facility_in_22582
+   + build_a_medium_facility_in_22582 + build_a_large_facility_in_22582
+   = 0
+ R251584: build_a_small_facility_in_22518
+   + build_a_medium_facility_in_22518 + build_a_large_facility_in_22518
+   = 0
+ R251598: build_a_small_facility_in_22573
+   + build_a_medium_facility_in_22573 + build_a_large_facility_in_22573
+   = 0
+ R251606: build_a_small_facility_in_22509
+   + build_a_medium_facility_in_22509 + build_a_large_facility_in_22509
+   + build_a_small_facility_in_22512 + build_a_medium_facility_in_22512
+   + build_a_large_facility_in_22512 <= 1
+ R251607: build_a_small_facility_in_22510
+   + build_a_medium_facility_in_22510 + build_a_large_facility_in_22510
+   + build_a_small_facility_in_22534 + build_a_medium_facility_in_22534
+   + build_a_large_facility_in_22534 <= 1
+ R251611: build_a_small_facility_in_22519
+   + build_a_medium_facility_in_22519 + build_a_large_facility_in_22519
+   + build_a_small_facility_in_22523 + build_a_medium_facility_in_22523
+   + build_a_large_facility_in_22523 <= 1
+ R251615: build_a_small_facility_in_22531
+   + build_a_medium_facility_in_22531 + build_a_large_facility_in_22531
+   + build_a_small_facility_in_22546 + build_a_medium_facility_in_22546
+   + build_a_large_facility_in_22546 <= 1
+ R251617: build_a_small_facility_in_22533
+   + build_a_medium_facility_in_22533 + build_a_large_facility_in_22533
+   + build_a_small_facility_in_22553 + build_a_medium_facility_in_22553
+   + build_a_large_facility_in_22553 <= 1
+ R251618: build_a_small_facility_in_22533
+   + build_a_medium_facility_in_22533 + build_a_large_facility_in_22533
+   + build_a_small_facility_in_22588 + build_a_medium_facility_in_22588
+   + build_a_large_facility_in_22588 <= 1
+ R251624: build_a_small_facility_in_22548
+   + build_a_medium_facility_in_22548 + build_a_large_facility_in_22548
+   + build_a_small_facility_in_22554 + build_a_medium_facility_in_22554
+   + build_a_large_facility_in_22554 <= 1
+ R251628: build_a_small_facility_in_22553
+   + build_a_medium_facility_in_22553 + build_a_large_facility_in_22553
+   + build_a_small_facility_in_22588 + build_a_medium_facility_in_22588
+   + build_a_large_facility_in_22588 <= 1
+ R251630: build_a_small_facility_in_22555
+   + build_a_medium_facility_in_22555 + build_a_large_facility_in_22555
+   + build_a_small_facility_in_22556 + build_a_medium_facility_in_22556
+   + build_a_large_facility_in_22556 <= 1
+ R251631: build_a_small_facility_in_22555
+   + build_a_medium_facility_in_22555 + build_a_large_facility_in_22555
+   + build_a_small_facility_in_22594 + build_a_medium_facility_in_22594
+   + build_a_large_facility_in_22594 <= 1
+ R251632: build_a_small_facility_in_22556
+   + build_a_medium_facility_in_22556 + build_a_large_facility_in_22556
+   + build_a_small_facility_in_22594 + build_a_medium_facility_in_22594
+   + build_a_large_facility_in_22594 <= 1
+ R251634: build_a_small_facility_in_22562
+   + build_a_medium_facility_in_22562 + build_a_large_facility_in_22562
+   + build_a_small_facility_in_22593 + build_a_medium_facility_in_22593
+   + build_a_large_facility_in_22593 <= 1
+ R251636: build_a_small_facility_in_22589
+   + build_a_medium_facility_in_22589 + build_a_large_facility_in_22589
+   + build_a_small_facility_in_22591 + build_a_medium_facility_in_22591
+   + build_a_large_facility_in_22591 <= 1
+ R251637: build_a_small_facility_in_22595
+   + build_a_medium_facility_in_22595 + build_a_large_facility_in_22595
+   + build_a_small_facility_in_22597 + build_a_medium_facility_in_22597
+   + build_a_large_facility_in_22597 <= 1
+Bounds
+ new_slots_at_facility_6765_between_0%_and_10% free
+ new_slots_at_facility_6765_between_10%_and_15% free
+ new_slots_at_facility_6765_between_15%_and_20% free
+ new_slots_at_facility_6766_between_0%_and_10% free
+ new_slots_at_facility_6766_between_10%_and_15% free
+ new_slots_at_facility_6766_between_15%_and_20% free
+ new_slots_at_facility_6767_between_0%_and_10% free
+ new_slots_at_facility_6767_between_10%_and_15% free
+ new_slots_at_facility_6767_between_15%_and_20% free
+ new_slots_at_facility_6768_between_0%_and_10% free
+ new_slots_at_facility_6768_between_10%_and_15% free
+ new_slots_at_facility_6768_between_15%_and_20% free
+ new_slots_at_facility_6769_between_0%_and_10% free
+ new_slots_at_facility_6769_between_10%_and_15% free
+ new_slots_at_facility_6769_between_15%_and_20% free
+ new_slots_at_facility_6770_between_0%_and_10% free
+ new_slots_at_facility_6770_between_10%_and_15% free
+ new_slots_at_facility_6770_between_15%_and_20% free
+ new_slots_at_facility_6771_between_0%_and_10% free
+ new_slots_at_facility_6771_between_10%_and_15% free
+ new_slots_at_facility_6771_between_15%_and_20% free
+ new_slots_at_facility_6772_between_0%_and_10% free
+ new_slots_at_facility_6772_between_10%_and_15% free
+ new_slots_at_facility_6772_between_15%_and_20% free
+ new_slots_at_facility_6773_between_0%_and_10% free
+ new_slots_at_facility_6773_between_10%_and_15% free
+ new_slots_at_facility_6773_between_15%_and_20% free
+ new_slots_at_facility_6774_between_0%_and_10% free
+ new_slots_at_facility_6774_between_10%_and_15% free
+ new_slots_at_facility_6774_between_15%_and_20% free
+ new_slots_at_facility_6775_between_0%_and_10% free
+ new_slots_at_facility_6775_between_10%_and_15% free
+ new_slots_at_facility_6775_between_15%_and_20% free
+ new_slots_at_facility_6776_between_0%_and_10% free
+ new_slots_at_facility_6776_between_10%_and_15% free
+ new_slots_at_facility_6776_between_15%_and_20% free
+ new_slots_at_facility_6777_between_0%_and_10% free
+ new_slots_at_facility_6777_between_10%_and_15% free
+ new_slots_at_facility_6777_between_15%_and_20% free
+ new_slots_at_facility_6778_between_0%_and_10% free
+ new_slots_at_facility_6778_between_10%_and_15% free
+ new_slots_at_facility_6778_between_15%_and_20% free
+ new_slots_at_facility_6779_between_0%_and_10% free
+ new_slots_at_facility_6779_between_10%_and_15% free
+ new_slots_at_facility_6779_between_15%_and_20% free
+ new_slots_at_facility_6780_between_0%_and_10% free
+ new_slots_at_facility_6780_between_10%_and_15% free
+ new_slots_at_facility_6780_between_15%_and_20% free
+ new_slots_at_facility_6781_between_0%_and_10% free
+ new_slots_at_facility_6781_between_10%_and_15% free
+ new_slots_at_facility_6781_between_15%_and_20% free
+ new_slots_at_facility_6782_between_0%_and_10% free
+ new_slots_at_facility_6782_between_10%_and_15% free
+ new_slots_at_facility_6782_between_15%_and_20% free
+ new_slots_at_facility_6783_between_0%_and_10% free
+ new_slots_at_facility_6783_between_10%_and_15% free
+ new_slots_at_facility_6783_between_15%_and_20% free
+ new_slots_at_facility_6784_between_0%_and_10% free
+ new_slots_at_facility_6784_between_10%_and_15% free
+ new_slots_at_facility_6784_between_15%_and_20% free
+ new_slots_at_facility_6785_between_0%_and_10% free
+ new_slots_at_facility_6785_between_10%_and_15% free
+ new_slots_at_facility_6785_between_15%_and_20% free
+ new_slots_at_facility_6786_between_0%_and_10% free
+ new_slots_at_facility_6786_between_10%_and_15% free
+ new_slots_at_facility_6786_between_15%_and_20% free
+ new_slots_at_facility_6787_between_0%_and_10% free
+ new_slots_at_facility_6787_between_10%_and_15% free
+ new_slots_at_facility_6787_between_15%_and_20% free
+ new_slots_at_facility_6788_between_0%_and_10% free
+ new_slots_at_facility_6788_between_10%_and_15% free
+ new_slots_at_facility_6788_between_15%_and_20% free
+ new_slots_at_facility_6789_between_0%_and_10% free
+ new_slots_at_facility_6789_between_10%_and_15% free
+ new_slots_at_facility_6789_between_15%_and_20% free
+ new_slots_at_facility_6790_between_0%_and_10% free
+ new_slots_at_facility_6790_between_10%_and_15% free
+ new_slots_at_facility_6790_between_15%_and_20% free
+ new_slots_at_facility_6791_between_0%_and_10% free
+ new_slots_at_facility_6791_between_10%_and_15% free
+ new_slots_at_facility_6791_between_15%_and_20% free
+ new_slots_at_facility_6792_between_0%_and_10% free
+ new_slots_at_facility_6792_between_10%_and_15% free
+ new_slots_at_facility_6792_between_15%_and_20% free
+ new_slots_at_facility_6793_between_0%_and_10% free
+ new_slots_at_facility_6793_between_10%_and_15% free
+ new_slots_at_facility_6793_between_15%_and_20% free
+ new_slots_at_facility_6794_between_0%_and_10% free
+ new_slots_at_facility_6794_between_10%_and_15% free
+ new_slots_at_facility_6794_between_15%_and_20% free
+ new_slots_at_facility_6795_between_0%_and_10% free
+ new_slots_at_facility_6795_between_10%_and_15% free
+ new_slots_at_facility_6795_between_15%_and_20% free
+ new_slots_at_facility_6796_between_0%_and_10% free
+ new_slots_at_facility_6796_between_10%_and_15% free
+ new_slots_at_facility_6796_between_15%_and_20% free
+ new_slots_at_facility_6797_between_0%_and_10% free
+ new_slots_at_facility_6797_between_10%_and_15% free
+ new_slots_at_facility_6797_between_15%_and_20% free
+ new_slots_at_facility_6798_between_0%_and_10% free
+ new_slots_at_facility_6798_between_10%_and_15% free
+ new_slots_at_facility_6798_between_15%_and_20% free
+ new_slots_at_facility_6799_between_0%_and_10% free
+ new_slots_at_facility_6799_between_10%_and_15% free
+ new_slots_at_facility_6799_between_15%_and_20% free
+ new_slots_at_facility_6800_between_0%_and_10% free
+ new_slots_at_facility_6800_between_10%_and_15% free
+ new_slots_at_facility_6800_between_15%_and_20% free
+ new_slots_at_facility_6801_between_0%_and_10% free
+ new_slots_at_facility_6801_between_10%_and_15% free
+ new_slots_at_facility_6801_between_15%_and_20% free
+ new_slots_at_facility_6802_between_0%_and_10% free
+ new_slots_at_facility_6802_between_10%_and_15% free
+ new_slots_at_facility_6802_between_15%_and_20% free
+ new_slots_at_facility_6803_between_0%_and_10% free
+ new_slots_at_facility_6803_between_10%_and_15% free
+ new_slots_at_facility_6803_between_15%_and_20% free
+ new_slots_at_facility_6804_between_0%_and_10% free
+ new_slots_at_facility_6804_between_10%_and_15% free
+ new_slots_at_facility_6804_between_15%_and_20% free
+ new_slots_at_facility_6805_between_0%_and_10% free
+ new_slots_at_facility_6805_between_10%_and_15% free
+ new_slots_at_facility_6805_between_15%_and_20% free
+ new_slots_at_facility_6806_between_0%_and_10% free
+ new_slots_at_facility_6806_between_10%_and_15% free
+ new_slots_at_facility_6806_between_15%_and_20% free
+ new_slots_at_facility_6807_between_0%_and_10% free
+ new_slots_at_facility_6807_between_10%_and_15% free
+ new_slots_at_facility_6807_between_15%_and_20% free
+ new_slots_at_facility_6808_between_0%_and_10% free
+ new_slots_at_facility_6808_between_10%_and_15% free
+ new_slots_at_facility_6808_between_15%_and_20% free
+ new_slots_at_facility_6809_between_0%_and_10% free
+ new_slots_at_facility_6809_between_10%_and_15% free
+ new_slots_at_facility_6809_between_15%_and_20% free
+ new_slots_at_facility_6810_between_0%_and_10% free
+ new_slots_at_facility_6810_between_10%_and_15% free
+ new_slots_at_facility_6810_between_15%_and_20% free
+ new_slots_at_facility_6811_between_0%_and_10% free
+ new_slots_at_facility_6811_between_10%_and_15% free
+ new_slots_at_facility_6811_between_15%_and_20% free
+ new_slots_at_facility_6812_between_0%_and_10% free
+ new_slots_at_facility_6812_between_10%_and_15% free
+ new_slots_at_facility_6812_between_15%_and_20% free
+ new_slots_at_facility_6813_between_0%_and_10% free
+ new_slots_at_facility_6813_between_10%_and_15% free
+ new_slots_at_facility_6813_between_15%_and_20% free
+ new_slots_at_facility_6814_between_0%_and_10% free
+ new_slots_at_facility_6814_between_10%_and_15% free
+ new_slots_at_facility_6814_between_15%_and_20% free
+ new_slots_at_facility_6815_between_0%_and_10% free
+ new_slots_at_facility_6815_between_10%_and_15% free
+ new_slots_at_facility_6815_between_15%_and_20% free
+ new_slots_at_facility_6816_between_0%_and_10% free
+ new_slots_at_facility_6816_between_10%_and_15% free
+ new_slots_at_facility_6816_between_15%_and_20% free
+ new_slots_at_facility_6817_between_0%_and_10% free
+ new_slots_at_facility_6817_between_10%_and_15% free
+ new_slots_at_facility_6817_between_15%_and_20% free
+ new_slots_at_facility_6818_between_0%_and_10% free
+ new_slots_at_facility_6818_between_10%_and_15% free
+ new_slots_at_facility_6818_between_15%_and_20% free
+ new_slots_at_facility_6819_between_0%_and_10% free
+ new_slots_at_facility_6819_between_10%_and_15% free
+ new_slots_at_facility_6819_between_15%_and_20% free
+ new_slots_at_facility_6820_between_0%_and_10% free
+ new_slots_at_facility_6820_between_10%_and_15% free
+ new_slots_at_facility_6820_between_15%_and_20% free
+ new_slots_at_facility_6821_between_0%_and_10% free
+ new_slots_at_facility_6821_between_10%_and_15% free
+ new_slots_at_facility_6821_between_15%_and_20% free
+ new_slots_at_facility_6822_between_0%_and_10% free
+ new_slots_at_facility_6822_between_10%_and_15% free
+ new_slots_at_facility_6822_between_15%_and_20% free
+ new_slots_at_facility_6823_between_0%_and_10% free
+ new_slots_at_facility_6823_between_10%_and_15% free
+ new_slots_at_facility_6823_between_15%_and_20% free
+ new_slots_at_facility_6824_between_0%_and_10% free
+ new_slots_at_facility_6824_between_10%_and_15% free
+ new_slots_at_facility_6824_between_15%_and_20% free
+ new_slots_at_facility_6825_between_0%_and_10% free
+ new_slots_at_facility_6825_between_10%_and_15% free
+ new_slots_at_facility_6825_between_15%_and_20% free
+ new_slots_at_facility_6826_between_0%_and_10% free
+ new_slots_at_facility_6826_between_10%_and_15% free
+ new_slots_at_facility_6826_between_15%_and_20% free
+ new_slots_at_facility_6827_between_0%_and_10% free
+ new_slots_at_facility_6827_between_10%_and_15% free
+ new_slots_at_facility_6827_between_15%_and_20% free
+ new_slots_at_facility_6828_between_0%_and_10% free
+ new_slots_at_facility_6828_between_10%_and_15% free
+ new_slots_at_facility_6828_between_15%_and_20% free
+ new_slots_at_facility_6829_between_0%_and_10% free
+ new_slots_at_facility_6829_between_10%_and_15% free
+ new_slots_at_facility_6829_between_15%_and_20% free
+ new_slots_at_facility_6830_between_0%_and_10% free
+ new_slots_at_facility_6830_between_10%_and_15% free
+ new_slots_at_facility_6830_between_15%_and_20% free
+ new_slots_at_facility_6831_between_0%_and_10% free
+ new_slots_at_facility_6831_between_10%_and_15% free
+ new_slots_at_facility_6831_between_15%_and_20% free
+ new_slots_at_facility_6832_between_0%_and_10% free
+ new_slots_at_facility_6832_between_10%_and_15% free
+ new_slots_at_facility_6832_between_15%_and_20% free
+ new_slots_at_facility_6833_between_0%_and_10% free
+ new_slots_at_facility_6833_between_10%_and_15% free
+ new_slots_at_facility_6833_between_15%_and_20% free
+ new_slots_at_facility_6834_between_0%_and_10% free
+ new_slots_at_facility_6834_between_10%_and_15% free
+ new_slots_at_facility_6834_between_15%_and_20% free
+ new_slots_at_facility_6835_between_0%_and_10% free
+ new_slots_at_facility_6835_between_10%_and_15% free
+ new_slots_at_facility_6835_between_15%_and_20% free
+ new_slots_at_facility_6836_between_0%_and_10% free
+ new_slots_at_facility_6836_between_10%_and_15% free
+ new_slots_at_facility_6836_between_15%_and_20% free
+ new_slots_at_facility_6837_between_0%_and_10% free
+ new_slots_at_facility_6837_between_10%_and_15% free
+ new_slots_at_facility_6837_between_15%_and_20% free
+ new_slots_at_facility_6838_between_0%_and_10% free
+ new_slots_at_facility_6838_between_10%_and_15% free
+ new_slots_at_facility_6838_between_15%_and_20% free
+ new_slots_at_facility_6839_between_0%_and_10% free
+ new_slots_at_facility_6839_between_10%_and_15% free
+ new_slots_at_facility_6839_between_15%_and_20% free
+ new_slots_at_facility_6840_between_0%_and_10% free
+ new_slots_at_facility_6840_between_10%_and_15% free
+ new_slots_at_facility_6840_between_15%_and_20% free
+ new_slots_at_facility_6841_between_0%_and_10% free
+ new_slots_at_facility_6841_between_10%_and_15% free
+ new_slots_at_facility_6841_between_15%_and_20% free
+ new_slots_at_facility_6842_between_0%_and_10% free
+ new_slots_at_facility_6842_between_10%_and_15% free
+ new_slots_at_facility_6842_between_15%_and_20% free
+ new_slots_at_facility_6843_between_0%_and_10% free
+ new_slots_at_facility_6843_between_10%_and_15% free
+ new_slots_at_facility_6843_between_15%_and_20% free
+ new_slots_at_facility_6844_between_0%_and_10% free
+ new_slots_at_facility_6844_between_10%_and_15% free
+ new_slots_at_facility_6844_between_15%_and_20% free
+ new_slots_at_facility_6845_between_0%_and_10% free
+ new_slots_at_facility_6845_between_10%_and_15% free
+ new_slots_at_facility_6845_between_15%_and_20% free
+ new_slots_at_facility_6846_between_0%_and_10% free
+ new_slots_at_facility_6846_between_10%_and_15% free
+ new_slots_at_facility_6846_between_15%_and_20% free
+ new_slots_at_facility_6847_between_0%_and_10% free
+ new_slots_at_facility_6847_between_10%_and_15% free
+ new_slots_at_facility_6847_between_15%_and_20% free
+ new_slots_at_facility_6848_between_0%_and_10% free
+ new_slots_at_facility_6848_between_10%_and_15% free
+ new_slots_at_facility_6848_between_15%_and_20% free
+ new_slots_at_facility_6849_between_0%_and_10% free
+ new_slots_at_facility_6849_between_10%_and_15% free
+ new_slots_at_facility_6849_between_15%_and_20% free
+ new_slots_at_facility_6850_between_0%_and_10% free
+ new_slots_at_facility_6850_between_10%_and_15% free
+ new_slots_at_facility_6850_between_15%_and_20% free
+ new_slots_at_facility_6851_between_0%_and_10% free
+ new_slots_at_facility_6851_between_10%_and_15% free
+ new_slots_at_facility_6851_between_15%_and_20% free
+ new_slots_at_facility_6852_between_0%_and_10% free
+ new_slots_at_facility_6852_between_10%_and_15% free
+ new_slots_at_facility_6852_between_15%_and_20% free
+ new_slots_at_facility_6853_between_0%_and_10% free
+ new_slots_at_facility_6853_between_10%_and_15% free
+ new_slots_at_facility_6853_between_15%_and_20% free
+ new_slots_at_facility_6854_between_0%_and_10% free
+ new_slots_at_facility_6854_between_10%_and_15% free
+ new_slots_at_facility_6854_between_15%_and_20% free
+ new_slots_at_facility_6855_between_0%_and_10% free
+ new_slots_at_facility_6855_between_10%_and_15% free
+ new_slots_at_facility_6855_between_15%_and_20% free
+ new_slots_at_facility_12310_between_0%_and_10% free
+ new_slots_at_facility_12310_between_10%_and_15% free
+ new_slots_at_facility_12310_between_15%_and_20% free
+ new_slots_for_children_under_5_at_facility_12310 free
+ min_slot_ratio free
+ max_slot_ratio free
+Binaries
+ 10% 15% 10% 15% 10% 15% 10% 15% 10% 15% 10% 15% 10% 15% 10% 15% 15% 10%
+ 15% 15% 10% 15% 10% 15% 10% 15% 10% 15% 10% 15% 10% 15% 10% 15% 10% 15%
+ 10% 15% 10% 15% 10% 15% 10% 15% 10% 15% 10% 15% 10% 15% 10% 15% 10% 15%
+ 10% 15% 15% 10% 15% 10% 15% 10% 15% 10% 15% 10% 15% 10% 15% 10% 15% 10%
+ 15% 10% 15% 10% 15% 10% 15% 10% 15% 10% 15% 10% 15% 10% 15% 10% 15% 10%
+ 15% 10% 15% 10% 15% 10% 15% 10% 15% 10% 15% 10% 15% 10% 15% 10% 15% 10%
+ 15% 10% 15% 10% 15% 10% 15% 10% 15% 10% 15% 10% 15% 10% 15% 10% 15% 10%
+ 15% 10% 15% 10% 15% 10% 15% 10% 15% 10% 15% 10% 15% 10% 15% 10% 15% 10%
+ 15% 10% 15% 10% 15% 10% 15% 10% 15% 10% 15% 10% 15% 10% 15% 10% 15% 10%
+ 15% 10% 15% 10% 15% 10% 15% 10% 15% 15% 10% 15% 10% 15%
+ build_a_small_facility_in_22500 build_a_medium_facility_in_22500
+ build_a_large_facility_in_22500 build_a_small_facility_in_22501
+ build_a_medium_facility_in_22501 build_a_large_facility_in_22501
+ build_a_small_facility_in_22502 build_a_medium_facility_in_22502
+ build_a_large_facility_in_22502 build_a_small_facility_in_22503
+ build_a_medium_facility_in_22503 build_a_large_facility_in_22503
+ build_a_small_facility_in_22504 build_a_medium_facility_in_22504
+ build_a_large_facility_in_22504 build_a_small_facility_in_22505
+ build_a_medium_facility_in_22505 build_a_large_facility_in_22505
+ build_a_small_facility_in_22506 build_a_medium_facility_in_22506
+ build_a_large_facility_in_22506 build_a_small_facility_in_22507
+ build_a_medium_facility_in_22507 build_a_large_facility_in_22507
+ build_a_small_facility_in_22508 build_a_medium_facility_in_22508
+ build_a_large_facility_in_22508 build_a_small_facility_in_22509
+ build_a_medium_facility_in_22509 build_a_large_facility_in_22509
+ build_a_small_facility_in_22510 build_a_medium_facility_in_22510
+ build_a_large_facility_in_22510 build_a_small_facility_in_22511
+ build_a_medium_facility_in_22511 build_a_large_facility_in_22511
+ build_a_small_facility_in_22512 build_a_medium_facility_in_22512
+ build_a_large_facility_in_22512 build_a_small_facility_in_22513
+ build_a_medium_facility_in_22513 build_a_large_facility_in_22513
+ build_a_small_facility_in_22514 build_a_medium_facility_in_22514
+ build_a_large_facility_in_22514 build_a_small_facility_in_22515
+ build_a_medium_facility_in_22515 build_a_large_facility_in_22515
+ build_a_small_facility_in_22516 build_a_medium_facility_in_22516
+ build_a_large_facility_in_22516 build_a_small_facility_in_22517
+ build_a_medium_facility_in_22517 build_a_large_facility_in_22517
+ build_a_small_facility_in_22518 build_a_medium_facility_in_22518
+ build_a_large_facility_in_22518 build_a_small_facility_in_22519
+ build_a_medium_facility_in_22519 build_a_large_facility_in_22519
+ build_a_small_facility_in_22520 build_a_medium_facility_in_22520
+ build_a_large_facility_in_22520 build_a_small_facility_in_22521
+ build_a_medium_facility_in_22521 build_a_large_facility_in_22521
+ build_a_small_facility_in_22522 build_a_medium_facility_in_22522
+ build_a_large_facility_in_22522 build_a_small_facility_in_22523
+ build_a_medium_facility_in_22523 build_a_large_facility_in_22523
+ build_a_small_facility_in_22524 build_a_medium_facility_in_22524
+ build_a_large_facility_in_22524 build_a_small_facility_in_22525
+ build_a_medium_facility_in_22525 build_a_large_facility_in_22525
+ build_a_small_facility_in_22526 build_a_medium_facility_in_22526
+ build_a_large_facility_in_22526 build_a_small_facility_in_22527
+ build_a_medium_facility_in_22527 build_a_large_facility_in_22527
+ build_a_small_facility_in_22528 build_a_medium_facility_in_22528
+ build_a_large_facility_in_22528 build_a_small_facility_in_22529
+ build_a_medium_facility_in_22529 build_a_large_facility_in_22529
+ build_a_small_facility_in_22530 build_a_medium_facility_in_22530
+ build_a_large_facility_in_22530 build_a_small_facility_in_22531
+ build_a_medium_facility_in_22531 build_a_large_facility_in_22531
+ build_a_small_facility_in_22532 build_a_medium_facility_in_22532
+ build_a_large_facility_in_22532 build_a_small_facility_in_22533
+ build_a_medium_facility_in_22533 build_a_large_facility_in_22533
+ build_a_small_facility_in_22534 build_a_medium_facility_in_22534
+ build_a_large_facility_in_22534 build_a_small_facility_in_22535
+ build_a_medium_facility_in_22535 build_a_large_facility_in_22535
+ build_a_small_facility_in_22536 build_a_medium_facility_in_22536
+ build_a_large_facility_in_22536 build_a_small_facility_in_22537
+ build_a_medium_facility_in_22537 build_a_large_facility_in_22537
+ build_a_small_facility_in_22538 build_a_medium_facility_in_22538
+ build_a_large_facility_in_22538 build_a_small_facility_in_22539
+ build_a_medium_facility_in_22539 build_a_large_facility_in_22539
+ build_a_small_facility_in_22540 build_a_medium_facility_in_22540
+ build_a_large_facility_in_22540 build_a_small_facility_in_22541
+ build_a_medium_facility_in_22541 build_a_large_facility_in_22541
+ build_a_small_facility_in_22542 build_a_medium_facility_in_22542
+ build_a_large_facility_in_22542 build_a_small_facility_in_22543
+ build_a_medium_facility_in_22543 build_a_large_facility_in_22543
+ build_a_small_facility_in_22544 build_a_medium_facility_in_22544
+ build_a_large_facility_in_22544 build_a_small_facility_in_22545
+ build_a_medium_facility_in_22545 build_a_large_facility_in_22545
+ build_a_small_facility_in_22546 build_a_medium_facility_in_22546
+ build_a_large_facility_in_22546 build_a_small_facility_in_22547
+ build_a_medium_facility_in_22547 build_a_large_facility_in_22547
+ build_a_small_facility_in_22548 build_a_medium_facility_in_22548
+ build_a_large_facility_in_22548 build_a_small_facility_in_22549
+ build_a_medium_facility_in_22549 build_a_large_facility_in_22549
+ build_a_small_facility_in_22550 build_a_medium_facility_in_22550
+ build_a_large_facility_in_22550 build_a_small_facility_in_22551
+ build_a_medium_facility_in_22551 build_a_large_facility_in_22551
+ build_a_small_facility_in_22552 build_a_medium_facility_in_22552
+ build_a_large_facility_in_22552 build_a_small_facility_in_22553
+ build_a_medium_facility_in_22553 build_a_large_facility_in_22553
+ build_a_small_facility_in_22554 build_a_medium_facility_in_22554
+ build_a_large_facility_in_22554 build_a_small_facility_in_22555
+ build_a_medium_facility_in_22555 build_a_large_facility_in_22555
+ build_a_small_facility_in_22556 build_a_medium_facility_in_22556
+ build_a_large_facility_in_22556 build_a_small_facility_in_22557
+ build_a_medium_facility_in_22557 build_a_large_facility_in_22557
+ build_a_small_facility_in_22558 build_a_medium_facility_in_22558
+ build_a_large_facility_in_22558 build_a_small_facility_in_22559
+ build_a_medium_facility_in_22559 build_a_large_facility_in_22559
+ build_a_small_facility_in_22560 build_a_medium_facility_in_22560
+ build_a_large_facility_in_22560 build_a_small_facility_in_22561
+ build_a_medium_facility_in_22561 build_a_large_facility_in_22561
+ build_a_small_facility_in_22562 build_a_medium_facility_in_22562
+ build_a_large_facility_in_22562 build_a_small_facility_in_22563
+ build_a_medium_facility_in_22563 build_a_large_facility_in_22563
+ build_a_small_facility_in_22564 build_a_medium_facility_in_22564
+ build_a_large_facility_in_22564 build_a_small_facility_in_22565
+ build_a_medium_facility_in_22565 build_a_large_facility_in_22565
+ build_a_small_facility_in_22566 build_a_medium_facility_in_22566
+ build_a_large_facility_in_22566 build_a_small_facility_in_22567
+ build_a_medium_facility_in_22567 build_a_large_facility_in_22567
+ build_a_small_facility_in_22568 build_a_medium_facility_in_22568
+ build_a_large_facility_in_22568 build_a_small_facility_in_22569
+ build_a_medium_facility_in_22569 build_a_large_facility_in_22569
+ build_a_small_facility_in_22570 build_a_medium_facility_in_22570
+ build_a_large_facility_in_22570 build_a_small_facility_in_22571
+ build_a_medium_facility_in_22571 build_a_large_facility_in_22571
+ build_a_small_facility_in_22572 build_a_medium_facility_in_22572
+ build_a_large_facility_in_22572 build_a_small_facility_in_22573
+ build_a_medium_facility_in_22573 build_a_large_facility_in_22573
+ build_a_small_facility_in_22574 build_a_medium_facility_in_22574
+ build_a_large_facility_in_22574 build_a_small_facility_in_22575
+ build_a_medium_facility_in_22575 build_a_large_facility_in_22575
+ build_a_small_facility_in_22576 build_a_medium_facility_in_22576
+ build_a_large_facility_in_22576 build_a_small_facility_in_22577
+ build_a_medium_facility_in_22577 build_a_large_facility_in_22577
+ build_a_small_facility_in_22578 build_a_medium_facility_in_22578
+ build_a_large_facility_in_22578 build_a_small_facility_in_22579
+ build_a_medium_facility_in_22579 build_a_large_facility_in_22579
+ build_a_small_facility_in_22580 build_a_medium_facility_in_22580
+ build_a_large_facility_in_22580 build_a_small_facility_in_22581
+ build_a_medium_facility_in_22581 build_a_large_facility_in_22581
+ build_a_small_facility_in_22582 build_a_medium_facility_in_22582
+ build_a_large_facility_in_22582 build_a_small_facility_in_22583
+ build_a_medium_facility_in_22583 build_a_large_facility_in_22583
+ build_a_small_facility_in_22584 build_a_medium_facility_in_22584
+ build_a_large_facility_in_22584 build_a_small_facility_in_22585
+ build_a_medium_facility_in_22585 build_a_large_facility_in_22585
+ build_a_small_facility_in_22586 build_a_medium_facility_in_22586
+ build_a_large_facility_in_22586 build_a_small_facility_in_22587
+ build_a_medium_facility_in_22587 build_a_large_facility_in_22587
+ build_a_small_facility_in_22588 build_a_medium_facility_in_22588
+ build_a_large_facility_in_22588 build_a_small_facility_in_22589
+ build_a_medium_facility_in_22589 build_a_large_facility_in_22589
+ build_a_small_facility_in_22590 build_a_medium_facility_in_22590
+ build_a_large_facility_in_22590 build_a_small_facility_in_22591
+ build_a_medium_facility_in_22591 build_a_large_facility_in_22591
+ build_a_small_facility_in_22592 build_a_medium_facility_in_22592
+ build_a_large_facility_in_22592 build_a_small_facility_in_22593
+ build_a_medium_facility_in_22593 build_a_large_facility_in_22593
+ build_a_small_facility_in_22594 build_a_medium_facility_in_22594
+ build_a_large_facility_in_22594 build_a_small_facility_in_22595
+ build_a_medium_facility_in_22595 build_a_large_facility_in_22595
+ build_a_small_facility_in_22596 build_a_medium_facility_in_22596
+ build_a_large_facility_in_22596 build_a_small_facility_in_22597
+ build_a_medium_facility_in_22597 build_a_large_facility_in_22597
+ build_a_small_facility_in_22598 build_a_medium_facility_in_22598
+ build_a_large_facility_in_22598 build_a_small_facility_in_22599
+ build_a_medium_facility_in_22599 build_a_large_facility_in_22599
+ build_a_small_facility_in_65700 build_a_medium_facility_in_65700
+ build_a_large_facility_in_65700 build_a_small_facility_in_65701
+ build_a_medium_facility_in_65701 build_a_large_facility_in_65701
+ build_a_small_facility_in_65702 build_a_medium_facility_in_65702
+ build_a_large_facility_in_65702 build_a_small_facility_in_65703
+ build_a_medium_facility_in_65703 build_a_large_facility_in_65703
+ build_a_small_facility_in_65704 build_a_medium_facility_in_65704
+ build_a_large_facility_in_65704 build_a_small_facility_in_65705
+ build_a_medium_facility_in_65705 build_a_large_facility_in_65705
+ build_a_small_facility_in_65706 build_a_medium_facility_in_65706
+ build_a_large_facility_in_65706 build_a_small_facility_in_65707
+ build_a_medium_facility_in_65707 build_a_large_facility_in_65707
+ build_a_small_facility_in_65708 build_a_medium_facility_in_65708
+ build_a_large_facility_in_65708 build_a_small_facility_in_65709
+ build_a_medium_facility_in_65709 build_a_large_facility_in_65709
+ build_a_small_facility_in_65710 build_a_medium_facility_in_65710
+ build_a_large_facility_in_65710 build_a_small_facility_in_65711
+ build_a_medium_facility_in_65711 build_a_large_facility_in_65711
+ build_a_small_facility_in_65712 build_a_medium_facility_in_65712
+ build_a_large_facility_in_65712 build_a_small_facility_in_65713
+ build_a_medium_facility_in_65713 build_a_large_facility_in_65713
+ build_a_small_facility_in_65714 build_a_medium_facility_in_65714
+ build_a_large_facility_in_65714 build_a_small_facility_in_65715
+ build_a_medium_facility_in_65715 build_a_large_facility_in_65715
+ build_a_small_facility_in_65716 build_a_medium_facility_in_65716
+ build_a_large_facility_in_65716 build_a_small_facility_in_65717
+ build_a_medium_facility_in_65717 build_a_large_facility_in_65717
+ build_a_small_facility_in_65718 build_a_medium_facility_in_65718
+ build_a_large_facility_in_65718 build_a_small_facility_in_65719
+ build_a_medium_facility_in_65719 build_a_large_facility_in_65719
+ build_a_small_facility_in_65720 build_a_medium_facility_in_65720
+ build_a_large_facility_in_65720 build_a_small_facility_in_65721
+ build_a_medium_facility_in_65721 build_a_large_facility_in_65721
+ build_a_small_facility_in_65722 build_a_medium_facility_in_65722
+ build_a_large_facility_in_65722 build_a_small_facility_in_65723
+ build_a_medium_facility_in_65723 build_a_large_facility_in_65723
+ build_a_small_facility_in_65724 build_a_medium_facility_in_65724
+ build_a_large_facility_in_65724 build_a_small_facility_in_65725
+ build_a_medium_facility_in_65725 build_a_large_facility_in_65725
+ build_a_small_facility_in_65726 build_a_medium_facility_in_65726
+ build_a_large_facility_in_65726 build_a_small_facility_in_65727
+ build_a_medium_facility_in_65727 build_a_large_facility_in_65727
+ build_a_small_facility_in_65728 build_a_medium_facility_in_65728
+ build_a_large_facility_in_65728 build_a_small_facility_in_65729
+ build_a_medium_facility_in_65729 build_a_large_facility_in_65729
+ build_a_small_facility_in_65730 build_a_medium_facility_in_65730
+ build_a_large_facility_in_65730 build_a_small_facility_in_65731
+ build_a_medium_facility_in_65731 build_a_large_facility_in_65731
+ build_a_small_facility_in_65732 build_a_medium_facility_in_65732
+ build_a_large_facility_in_65732 build_a_small_facility_in_65733
+ build_a_medium_facility_in_65733 build_a_large_facility_in_65733
+ build_a_small_facility_in_65734 build_a_medium_facility_in_65734
+ build_a_large_facility_in_65734 build_a_small_facility_in_65735
+ build_a_medium_facility_in_65735 build_a_large_facility_in_65735
+ build_a_small_facility_in_65736 build_a_medium_facility_in_65736
+ build_a_large_facility_in_65736 build_a_small_facility_in_65737
+ build_a_medium_facility_in_65737 build_a_large_facility_in_65737
+ build_a_small_facility_in_65738 build_a_medium_facility_in_65738
+ build_a_large_facility_in_65738 build_a_small_facility_in_65739
+ build_a_medium_facility_in_65739 build_a_large_facility_in_65739
+ build_a_small_facility_in_65740 build_a_medium_facility_in_65740
+ build_a_large_facility_in_65740 build_a_small_facility_in_65741
+ build_a_medium_facility_in_65741 build_a_large_facility_in_65741
+ build_a_small_facility_in_65742 build_a_medium_facility_in_65742
+ build_a_large_facility_in_65742 build_a_small_facility_in_65743
+ build_a_medium_facility_in_65743 build_a_large_facility_in_65743
+ build_a_small_facility_in_65744 build_a_medium_facility_in_65744
+ build_a_large_facility_in_65744 build_a_small_facility_in_65745
+ build_a_medium_facility_in_65745 build_a_large_facility_in_65745
+ build_a_small_facility_in_65746 build_a_medium_facility_in_65746
+ build_a_large_facility_in_65746 build_a_small_facility_in_65747
+ build_a_medium_facility_in_65747 build_a_large_facility_in_65747
+ build_a_small_facility_in_65748 build_a_medium_facility_in_65748
+ build_a_large_facility_in_65748 build_a_small_facility_in_65749
+ build_a_medium_facility_in_65749 build_a_large_facility_in_65749
+ build_a_small_facility_in_65750 build_a_medium_facility_in_65750
+ build_a_large_facility_in_65750 build_a_small_facility_in_65751
+ build_a_medium_facility_in_65751 build_a_large_facility_in_65751
+ build_a_small_facility_in_65752 build_a_medium_facility_in_65752
+ build_a_large_facility_in_65752 build_a_small_facility_in_65753
+ build_a_medium_facility_in_65753 build_a_large_facility_in_65753
+ build_a_small_facility_in_65754 build_a_medium_facility_in_65754
+ build_a_large_facility_in_65754 build_a_small_facility_in_65755
+ build_a_medium_facility_in_65755 build_a_large_facility_in_65755
+ build_a_small_facility_in_65756 build_a_medium_facility_in_65756
+ build_a_large_facility_in_65756 build_a_small_facility_in_65757
+ build_a_medium_facility_in_65757 build_a_large_facility_in_65757
+ build_a_small_facility_in_65758 build_a_medium_facility_in_65758
+ build_a_large_facility_in_65758 build_a_small_facility_in_65759
+ build_a_medium_facility_in_65759 build_a_large_facility_in_65759
+ build_a_small_facility_in_65760 build_a_medium_facility_in_65760
+ build_a_large_facility_in_65760 build_a_small_facility_in_65761
+ build_a_medium_facility_in_65761 build_a_large_facility_in_65761
+ build_a_small_facility_in_65762 build_a_medium_facility_in_65762
+ build_a_large_facility_in_65762 build_a_small_facility_in_65763
+ build_a_medium_facility_in_65763 build_a_large_facility_in_65763
+ build_a_small_facility_in_65764 build_a_medium_facility_in_65764
+ build_a_large_facility_in_65764 build_a_small_facility_in_65765
+ build_a_medium_facility_in_65765 build_a_large_facility_in_65765
+ build_a_small_facility_in_65766 build_a_medium_facility_in_65766
+ build_a_large_facility_in_65766 build_a_small_facility_in_65767
+ build_a_medium_facility_in_65767 build_a_large_facility_in_65767
+ build_a_small_facility_in_65768 build_a_medium_facility_in_65768
+ build_a_large_facility_in_65768 build_a_small_facility_in_65769
+ build_a_medium_facility_in_65769 build_a_large_facility_in_65769
+ build_a_small_facility_in_65770 build_a_medium_facility_in_65770
+ build_a_large_facility_in_65770 build_a_small_facility_in_65771
+ build_a_medium_facility_in_65771 build_a_large_facility_in_65771
+ build_a_small_facility_in_65772 build_a_medium_facility_in_65772
+ build_a_large_facility_in_65772 build_a_small_facility_in_65773
+ build_a_medium_facility_in_65773 build_a_large_facility_in_65773
+ build_a_small_facility_in_65774 build_a_medium_facility_in_65774
+ build_a_large_facility_in_65774 build_a_small_facility_in_65775
+ build_a_medium_facility_in_65775 build_a_large_facility_in_65775
+ build_a_small_facility_in_65776 build_a_medium_facility_in_65776
+ build_a_large_facility_in_65776 build_a_small_facility_in_65777
+ build_a_medium_facility_in_65777 build_a_large_facility_in_65777
+ build_a_small_facility_in_65778 build_a_medium_facility_in_65778
+ build_a_large_facility_in_65778 build_a_small_facility_in_65779
+ build_a_medium_facility_in_65779 build_a_large_facility_in_65779
+ build_a_small_facility_in_65780 build_a_medium_facility_in_65780
+ build_a_large_facility_in_65780 build_a_small_facility_in_65781
+ build_a_medium_facility_in_65781 build_a_large_facility_in_65781
+ build_a_small_facility_in_65782 build_a_medium_facility_in_65782
+ build_a_large_facility_in_65782 build_a_small_facility_in_65783
+ build_a_medium_facility_in_65783 build_a_large_facility_in_65783
+ build_a_small_facility_in_65784 build_a_medium_facility_in_65784
+ build_a_large_facility_in_65784 build_a_small_facility_in_65785
+ build_a_medium_facility_in_65785 build_a_large_facility_in_65785
+ build_a_small_facility_in_65786 build_a_medium_facility_in_65786
+ build_a_large_facility_in_65786 build_a_small_facility_in_65787
+ build_a_medium_facility_in_65787 build_a_large_facility_in_65787
+ build_a_small_facility_in_65788 build_a_medium_facility_in_65788
+ build_a_large_facility_in_65788 build_a_small_facility_in_65789
+ build_a_medium_facility_in_65789 build_a_large_facility_in_65789
+ build_a_small_facility_in_65790 build_a_medium_facility_in_65790
+ build_a_large_facility_in_65790 build_a_small_facility_in_65791
+ build_a_medium_facility_in_65791 build_a_large_facility_in_65791
+ build_a_small_facility_in_65792 build_a_medium_facility_in_65792
+ build_a_large_facility_in_65792 build_a_small_facility_in_65793
+ build_a_medium_facility_in_65793 build_a_large_facility_in_65793
+ build_a_small_facility_in_65794 build_a_medium_facility_in_65794
+ build_a_large_facility_in_65794 build_a_small_facility_in_65795
+ build_a_medium_facility_in_65795 build_a_large_facility_in_65795
+ build_a_small_facility_in_65796 build_a_medium_facility_in_65796
+ build_a_large_facility_in_65796 build_a_small_facility_in_65797
+ build_a_medium_facility_in_65797 build_a_large_facility_in_65797
+ build_a_small_facility_in_65798 build_a_medium_facility_in_65798
+ build_a_large_facility_in_65798 build_a_small_facility_in_65799
+ build_a_medium_facility_in_65799 build_a_large_facility_in_65799
+Generals
+ new_slots_at_facility_6765_between_0%_and_10%
+ new_slots_at_facility_6765_between_10%_and_15%
+ new_slots_at_facility_6765_between_15%_and_20%
+ new_slots_at_facility_6766_between_0%_and_10%
+ new_slots_at_facility_6766_between_10%_and_15%
+ new_slots_at_facility_6766_between_15%_and_20%
+ new_slots_at_facility_6767_between_0%_and_10%
+ new_slots_at_facility_6767_between_10%_and_15%
+ new_slots_at_facility_6767_between_15%_and_20%
+ new_slots_at_facility_6768_between_0%_and_10%
+ new_slots_at_facility_6768_between_10%_and_15%
+ new_slots_at_facility_6768_between_15%_and_20%
+ new_slots_at_facility_6769_between_0%_and_10%
+ new_slots_at_facility_6769_between_10%_and_15%
+ new_slots_at_facility_6769_between_15%_and_20%
+ new_slots_at_facility_6770_between_0%_and_10%
+ new_slots_at_facility_6770_between_10%_and_15%
+ new_slots_at_facility_6770_between_15%_and_20%
+ new_slots_at_facility_6771_between_0%_and_10%
+ new_slots_at_facility_6771_between_10%_and_15%
+ new_slots_at_facility_6771_between_15%_and_20%
+ new_slots_at_facility_6772_between_0%_and_10%
+ new_slots_at_facility_6772_between_10%_and_15%
+ new_slots_at_facility_6772_between_15%_and_20%
+ new_slots_at_facility_6773_between_0%_and_10%
+ new_slots_at_facility_6773_between_10%_and_15%
+ new_slots_at_facility_6773_between_15%_and_20%
+ new_slots_at_facility_6774_between_0%_and_10%
+ new_slots_at_facility_6774_between_10%_and_15%
+ new_slots_at_facility_6774_between_15%_and_20%
+ new_slots_at_facility_6775_between_0%_and_10%
+ new_slots_at_facility_6775_between_10%_and_15%
+ new_slots_at_facility_6775_between_15%_and_20%
+ new_slots_at_facility_6776_between_0%_and_10%
+ new_slots_at_facility_6776_between_10%_and_15%
+ new_slots_at_facility_6776_between_15%_and_20%
+ new_slots_at_facility_6777_between_0%_and_10%
+ new_slots_at_facility_6777_between_10%_and_15%
+ new_slots_at_facility_6777_between_15%_and_20%
+ new_slots_at_facility_6778_between_0%_and_10%
+ new_slots_at_facility_6778_between_10%_and_15%
+ new_slots_at_facility_6778_between_15%_and_20%
+ new_slots_at_facility_6779_between_0%_and_10%
+ new_slots_at_facility_6779_between_10%_and_15%
+ new_slots_at_facility_6779_between_15%_and_20%
+ new_slots_at_facility_6780_between_0%_and_10%
+ new_slots_at_facility_6780_between_10%_and_15%
+ new_slots_at_facility_6780_between_15%_and_20%
+ new_slots_at_facility_6781_between_0%_and_10%
+ new_slots_at_facility_6781_between_10%_and_15%
+ new_slots_at_facility_6781_between_15%_and_20%
+ new_slots_at_facility_6782_between_0%_and_10%
+ new_slots_at_facility_6782_between_10%_and_15%
+ new_slots_at_facility_6782_between_15%_and_20%
+ new_slots_at_facility_6783_between_0%_and_10%
+ new_slots_at_facility_6783_between_10%_and_15%
+ new_slots_at_facility_6783_between_15%_and_20%
+ new_slots_at_facility_6784_between_0%_and_10%
+ new_slots_at_facility_6784_between_10%_and_15%
+ new_slots_at_facility_6784_between_15%_and_20%
+ new_slots_at_facility_6785_between_0%_and_10%
+ new_slots_at_facility_6785_between_10%_and_15%
+ new_slots_at_facility_6785_between_15%_and_20%
+ new_slots_at_facility_6786_between_0%_and_10%
+ new_slots_at_facility_6786_between_10%_and_15%
+ new_slots_at_facility_6786_between_15%_and_20%
+ new_slots_at_facility_6787_between_0%_and_10%
+ new_slots_at_facility_6787_between_10%_and_15%
+ new_slots_at_facility_6787_between_15%_and_20%
+ new_slots_at_facility_6788_between_0%_and_10%
+ new_slots_at_facility_6788_between_10%_and_15%
+ new_slots_at_facility_6788_between_15%_and_20%
+ new_slots_at_facility_6789_between_0%_and_10%
+ new_slots_at_facility_6789_between_10%_and_15%
+ new_slots_at_facility_6789_between_15%_and_20%
+ new_slots_at_facility_6790_between_0%_and_10%
+ new_slots_at_facility_6790_between_10%_and_15%
+ new_slots_at_facility_6790_between_15%_and_20%
+ new_slots_at_facility_6791_between_0%_and_10%
+ new_slots_at_facility_6791_between_10%_and_15%
+ new_slots_at_facility_6791_between_15%_and_20%
+ new_slots_at_facility_6792_between_0%_and_10%
+ new_slots_at_facility_6792_between_10%_and_15%
+ new_slots_at_facility_6792_between_15%_and_20%
+ new_slots_at_facility_6793_between_0%_and_10%
+ new_slots_at_facility_6793_between_10%_and_15%
+ new_slots_at_facility_6793_between_15%_and_20%
+ new_slots_at_facility_6794_between_0%_and_10%
+ new_slots_at_facility_6794_between_10%_and_15%
+ new_slots_at_facility_6794_between_15%_and_20%
+ new_slots_at_facility_6795_between_0%_and_10%
+ new_slots_at_facility_6795_between_10%_and_15%
+ new_slots_at_facility_6795_between_15%_and_20%
+ new_slots_at_facility_6796_between_0%_and_10%
+ new_slots_at_facility_6796_between_10%_and_15%
+ new_slots_at_facility_6796_between_15%_and_20%
+ new_slots_at_facility_6797_between_0%_and_10%
+ new_slots_at_facility_6797_between_10%_and_15%
+ new_slots_at_facility_6797_between_15%_and_20%
+ new_slots_at_facility_6798_between_0%_and_10%
+ new_slots_at_facility_6798_between_10%_and_15%
+ new_slots_at_facility_6798_between_15%_and_20%
+ new_slots_at_facility_6799_between_0%_and_10%
+ new_slots_at_facility_6799_between_10%_and_15%
+ new_slots_at_facility_6799_between_15%_and_20%
+ new_slots_at_facility_6800_between_0%_and_10%
+ new_slots_at_facility_6800_between_10%_and_15%
+ new_slots_at_facility_6800_between_15%_and_20%
+ new_slots_at_facility_6801_between_0%_and_10%
+ new_slots_at_facility_6801_between_10%_and_15%
+ new_slots_at_facility_6801_between_15%_and_20%
+ new_slots_at_facility_6802_between_0%_and_10%
+ new_slots_at_facility_6802_between_10%_and_15%
+ new_slots_at_facility_6802_between_15%_and_20%
+ new_slots_at_facility_6803_between_0%_and_10%
+ new_slots_at_facility_6803_between_10%_and_15%
+ new_slots_at_facility_6803_between_15%_and_20%
+ new_slots_at_facility_6804_between_0%_and_10%
+ new_slots_at_facility_6804_between_10%_and_15%
+ new_slots_at_facility_6804_between_15%_and_20%
+ new_slots_at_facility_6805_between_0%_and_10%
+ new_slots_at_facility_6805_between_10%_and_15%
+ new_slots_at_facility_6805_between_15%_and_20%
+ new_slots_at_facility_6806_between_0%_and_10%
+ new_slots_at_facility_6806_between_10%_and_15%
+ new_slots_at_facility_6806_between_15%_and_20%
+ new_slots_at_facility_6807_between_0%_and_10%
+ new_slots_at_facility_6807_between_10%_and_15%
+ new_slots_at_facility_6807_between_15%_and_20%
+ new_slots_at_facility_6808_between_0%_and_10%
+ new_slots_at_facility_6808_between_10%_and_15%
+ new_slots_at_facility_6808_between_15%_and_20%
+ new_slots_at_facility_6809_between_0%_and_10%
+ new_slots_at_facility_6809_between_10%_and_15%
+ new_slots_at_facility_6809_between_15%_and_20%
+ new_slots_at_facility_6810_between_0%_and_10%
+ new_slots_at_facility_6810_between_10%_and_15%
+ new_slots_at_facility_6810_between_15%_and_20%
+ new_slots_at_facility_6811_between_0%_and_10%
+ new_slots_at_facility_6811_between_10%_and_15%
+ new_slots_at_facility_6811_between_15%_and_20%
+ new_slots_at_facility_6812_between_0%_and_10%
+ new_slots_at_facility_6812_between_10%_and_15%
+ new_slots_at_facility_6812_between_15%_and_20%
+ new_slots_at_facility_6813_between_0%_and_10%
+ new_slots_at_facility_6813_between_10%_and_15%
+ new_slots_at_facility_6813_between_15%_and_20%
+ new_slots_at_facility_6814_between_0%_and_10%
+ new_slots_at_facility_6814_between_10%_and_15%
+ new_slots_at_facility_6814_between_15%_and_20%
+ new_slots_at_facility_6815_between_0%_and_10%
+ new_slots_at_facility_6815_between_10%_and_15%
+ new_slots_at_facility_6815_between_15%_and_20%
+ new_slots_at_facility_6816_between_0%_and_10%
+ new_slots_at_facility_6816_between_10%_and_15%
+ new_slots_at_facility_6816_between_15%_and_20%
+ new_slots_at_facility_6817_between_0%_and_10%
+ new_slots_at_facility_6817_between_10%_and_15%
+ new_slots_at_facility_6817_between_15%_and_20%
+ new_slots_at_facility_6818_between_0%_and_10%
+ new_slots_at_facility_6818_between_10%_and_15%
+ new_slots_at_facility_6818_between_15%_and_20%
+ new_slots_at_facility_6819_between_0%_and_10%
+ new_slots_at_facility_6819_between_10%_and_15%
+ new_slots_at_facility_6819_between_15%_and_20%
+ new_slots_at_facility_6820_between_0%_and_10%
+ new_slots_at_facility_6820_between_10%_and_15%
+ new_slots_at_facility_6820_between_15%_and_20%
+ new_slots_at_facility_6821_between_0%_and_10%
+ new_slots_at_facility_6821_between_10%_and_15%
+ new_slots_at_facility_6821_between_15%_and_20%
+ new_slots_at_facility_6822_between_0%_and_10%
+ new_slots_at_facility_6822_between_10%_and_15%
+ new_slots_at_facility_6822_between_15%_and_20%
+ new_slots_at_facility_6823_between_0%_and_10%
+ new_slots_at_facility_6823_between_10%_and_15%
+ new_slots_at_facility_6823_between_15%_and_20%
+ new_slots_at_facility_6824_between_0%_and_10%
+ new_slots_at_facility_6824_between_10%_and_15%
+ new_slots_at_facility_6824_between_15%_and_20%
+ new_slots_at_facility_6825_between_0%_and_10%
+ new_slots_at_facility_6825_between_10%_and_15%
+ new_slots_at_facility_6825_between_15%_and_20%
+ new_slots_at_facility_6826_between_0%_and_10%
+ new_slots_at_facility_6826_between_10%_and_15%
+ new_slots_at_facility_6826_between_15%_and_20%
+ new_slots_at_facility_6827_between_0%_and_10%
+ new_slots_at_facility_6827_between_10%_and_15%
+ new_slots_at_facility_6827_between_15%_and_20%
+ new_slots_at_facility_6828_between_0%_and_10%
+ new_slots_at_facility_6828_between_10%_and_15%
+ new_slots_at_facility_6828_between_15%_and_20%
+ new_slots_at_facility_6829_between_0%_and_10%
+ new_slots_at_facility_6829_between_10%_and_15%
+ new_slots_at_facility_6829_between_15%_and_20%
+ new_slots_at_facility_6830_between_0%_and_10%
+ new_slots_at_facility_6830_between_10%_and_15%
+ new_slots_at_facility_6830_between_15%_and_20%
+ new_slots_at_facility_6831_between_0%_and_10%
+ new_slots_at_facility_6831_between_10%_and_15%
+ new_slots_at_facility_6831_between_15%_and_20%
+ new_slots_at_facility_6832_between_0%_and_10%
+ new_slots_at_facility_6832_between_10%_and_15%
+ new_slots_at_facility_6832_between_15%_and_20%
+ new_slots_at_facility_6833_between_0%_and_10%
+ new_slots_at_facility_6833_between_10%_and_15%
+ new_slots_at_facility_6833_between_15%_and_20%
+ new_slots_at_facility_6834_between_0%_and_10%
+ new_slots_at_facility_6834_between_10%_and_15%
+ new_slots_at_facility_6834_between_15%_and_20%
+ new_slots_at_facility_6835_between_0%_and_10%
+ new_slots_at_facility_6835_between_10%_and_15%
+ new_slots_at_facility_6835_between_15%_and_20%
+ new_slots_at_facility_6836_between_0%_and_10%
+ new_slots_at_facility_6836_between_10%_and_15%
+ new_slots_at_facility_6836_between_15%_and_20%
+ new_slots_at_facility_6837_between_0%_and_10%
+ new_slots_at_facility_6837_between_10%_and_15%
+ new_slots_at_facility_6837_between_15%_and_20%
+ new_slots_at_facility_6838_between_0%_and_10%
+ new_slots_at_facility_6838_between_10%_and_15%
+ new_slots_at_facility_6838_between_15%_and_20%
+ new_slots_at_facility_6839_between_0%_and_10%
+ new_slots_at_facility_6839_between_10%_and_15%
+ new_slots_at_facility_6839_between_15%_and_20%
+ new_slots_at_facility_6840_between_0%_and_10%
+ new_slots_at_facility_6840_between_10%_and_15%
+ new_slots_at_facility_6840_between_15%_and_20%
+ new_slots_at_facility_6841_between_0%_and_10%
+ new_slots_at_facility_6841_between_10%_and_15%
+ new_slots_at_facility_6841_between_15%_and_20%
+ new_slots_at_facility_6842_between_0%_and_10%
+ new_slots_at_facility_6842_between_10%_and_15%
+ new_slots_at_facility_6842_between_15%_and_20%
+ new_slots_at_facility_6843_between_0%_and_10%
+ new_slots_at_facility_6843_between_10%_and_15%
+ new_slots_at_facility_6843_between_15%_and_20%
+ new_slots_at_facility_6844_between_0%_and_10%
+ new_slots_at_facility_6844_between_10%_and_15%
+ new_slots_at_facility_6844_between_15%_and_20%
+ new_slots_at_facility_6845_between_0%_and_10%
+ new_slots_at_facility_6845_between_10%_and_15%
+ new_slots_at_facility_6845_between_15%_and_20%
+ new_slots_at_facility_6846_between_0%_and_10%
+ new_slots_at_facility_6846_between_10%_and_15%
+ new_slots_at_facility_6846_between_15%_and_20%
+ new_slots_at_facility_6847_between_0%_and_10%
+ new_slots_at_facility_6847_between_10%_and_15%
+ new_slots_at_facility_6847_between_15%_and_20%
+ new_slots_at_facility_6848_between_0%_and_10%
+ new_slots_at_facility_6848_between_10%_and_15%
+ new_slots_at_facility_6848_between_15%_and_20%
+ new_slots_at_facility_6849_between_0%_and_10%
+ new_slots_at_facility_6849_between_10%_and_15%
+ new_slots_at_facility_6849_between_15%_and_20%
+ new_slots_at_facility_6850_between_0%_and_10%
+ new_slots_at_facility_6850_between_10%_and_15%
+ new_slots_at_facility_6850_between_15%_and_20%
+ new_slots_at_facility_6851_between_0%_and_10%
+ new_slots_at_facility_6851_between_10%_and_15%
+ new_slots_at_facility_6851_between_15%_and_20%
+ new_slots_at_facility_6852_between_0%_and_10%
+ new_slots_at_facility_6852_between_10%_and_15%
+ new_slots_at_facility_6852_between_15%_and_20%
+ new_slots_at_facility_6853_between_0%_and_10%
+ new_slots_at_facility_6853_between_10%_and_15%
+ new_slots_at_facility_6853_between_15%_and_20%
+ new_slots_at_facility_6854_between_0%_and_10%
+ new_slots_at_facility_6854_between_10%_and_15%
+ new_slots_at_facility_6854_between_15%_and_20%
+ new_slots_at_facility_6855_between_0%_and_10%
+ new_slots_at_facility_6855_between_10%_and_15%
+ new_slots_at_facility_6855_between_15%_and_20%
+ new_slots_at_facility_12310_between_0%_and_10%
+ new_slots_at_facility_12310_between_10%_and_15%
+ new_slots_at_facility_12310_between_15%_and_20%
+ new_slots_for_children_under_5_at_facility_12310
+End
